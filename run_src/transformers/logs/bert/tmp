@@ -1,0 +1,1875 @@
+2021-02-23 01:50:31.358151450 [I:onnxruntime:, inference_session.cc:223 operator()] Flush-to-zero and denormal-as-zero are off
+2021-02-23 01:50:31.358299321 [I:onnxruntime:, inference_session.cc:230 ConstructorCommon] Creating and using per session threadpools since use_per_session_threads_ is true
+2021-02-23 01:50:31.779993798 [I:onnxruntime:, inference_session.cc:1095 Initialize] Initializing session.
+2021-02-23 01:50:31.843896747 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '585'. It is no longer used by any node.
+2021-02-23 01:50:31.844010058 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '582'. It is no longer used by any node.
+2021-02-23 01:50:31.844068829 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '540'. It is no longer used by any node.
+2021-02-23 01:50:31.844125259 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '533'. It is no longer used by any node.
+2021-02-23 01:50:31.844179590 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '534'. It is no longer used by any node.
+2021-02-23 01:50:31.844235420 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '559'. It is no longer used by any node.
+2021-02-23 01:50:31.844289751 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '561'. It is no longer used by any node.
+2021-02-23 01:50:31.844343512 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '553'. It is no longer used by any node.
+2021-02-23 01:50:31.844397092 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '519'. It is no longer used by any node.
+2021-02-23 01:50:31.844452503 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '450'. It is no longer used by any node.
+2021-02-23 01:50:31.844506263 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '448'. It is no longer used by any node.
+2021-02-23 01:50:31.844560534 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '458'. It is no longer used by any node.
+2021-02-23 01:50:31.844615164 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '411'. It is no longer used by any node.
+2021-02-23 01:50:31.844669045 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '402'. It is no longer used by any node.
+2021-02-23 01:50:31.844722265 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '413'. It is no longer used by any node.
+2021-02-23 01:50:31.844775966 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '407'. It is no longer used by any node.
+2021-02-23 01:50:31.844829936 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '430'. It is no longer used by any node.
+2021-02-23 01:50:31.844885587 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '421'. It is no longer used by any node.
+2021-02-23 01:50:31.844940277 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '432'. It is no longer used by any node.
+2021-02-23 01:50:31.844994278 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '426'. It is no longer used by any node.
+2021-02-23 01:50:31.845047949 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '424'. It is no longer used by any node.
+2021-02-23 01:50:31.845101949 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '456'. It is no longer used by any node.
+2021-02-23 01:50:31.845156460 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '390'. It is no longer used by any node.
+2021-02-23 01:50:31.845209980 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '381'. It is no longer used by any node.
+2021-02-23 01:50:31.845263441 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '386'. It is no longer used by any node.
+2021-02-23 01:50:31.845351912 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '327'. It is no longer used by any node.
+2021-02-23 01:50:31.845407952 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '321'. It is no longer used by any node.
+2021-02-23 01:50:31.845461863 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '329'. It is no longer used by any node.
+2021-02-23 01:50:31.845516013 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '322'. It is no longer used by any node.
+2021-02-23 01:50:31.845569894 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '273'. It is no longer used by any node.
+2021-02-23 01:50:31.845623204 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '284'. It is no longer used by any node.
+2021-02-23 01:50:31.845676635 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '276'. It is no longer used by any node.
+2021-02-23 01:50:31.845730725 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '294'. It is no longer used by any node.
+2021-02-23 01:50:31.845789046 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '292'. It is no longer used by any node.
+2021-02-23 01:50:31.845843707 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '303'. It is no longer used by any node.
+2021-02-23 01:50:31.845897467 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '297'. It is no longer used by any node.
+2021-02-23 01:50:31.845951228 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '295'. It is no longer used by any node.
+2021-02-23 01:50:31.846005558 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '254'. It is no longer used by any node.
+2021-02-23 01:50:31.846059259 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '252'. It is no longer used by any node.
+2021-02-23 01:50:31.846112749 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '257'. It is no longer used by any node.
+2021-02-23 01:50:31.846166000 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '255'. It is no longer used by any node.
+2021-02-23 01:50:31.846220180 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '198'. It is no longer used by any node.
+2021-02-23 01:50:31.846273971 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '190'. It is no longer used by any node.
+2021-02-23 01:50:31.846328031 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '193'. It is no longer used by any node.
+2021-02-23 01:50:31.846382722 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '153'. It is no longer used by any node.
+2021-02-23 01:50:31.846436422 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '155'. It is no longer used by any node.
+2021-02-23 01:50:31.846490303 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '172'. It is no longer used by any node.
+2021-02-23 01:50:31.846543644 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '165'. It is no longer used by any node.
+2021-02-23 01:50:31.846597194 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '163'. It is no longer used by any node.
+2021-02-23 01:50:31.846650745 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '174'. It is no longer used by any node.
+2021-02-23 01:50:31.846704355 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '319'. It is no longer used by any node.
+2021-02-23 01:50:31.846757696 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '166'. It is no longer used by any node.
+2021-02-23 01:50:31.846812026 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '282'. It is no longer used by any node.
+2021-02-23 01:50:31.846883667 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '132'. It is no longer used by any node.
+2021-02-23 01:50:31.846938507 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '125'. It is no longer used by any node.
+2021-02-23 01:50:31.846993078 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '134'. It is no longer used by any node.
+2021-02-23 01:50:31.847046749 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '128'. It is no longer used by any node.
+2021-02-23 01:50:31.847100959 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '100'. It is no longer used by any node.
+2021-02-23 01:50:31.847154660 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '96'. It is no longer used by any node.
+2021-02-23 01:50:31.847208720 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '580'. It is no longer used by any node.
+2021-02-23 01:50:31.847262361 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '512'. It is no longer used by any node.
+2021-02-23 01:50:31.847316481 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '513'. It is no longer used by any node.
+2021-02-23 01:50:31.847370602 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '584'. It is no longer used by any node.
+2021-02-23 01:50:31.847424752 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '578'. It is no longer used by any node.
+2021-02-23 01:50:31.847478603 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '146'. It is no longer used by any node.
+2021-02-23 01:50:31.847557804 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '423'. It is no longer used by any node.
+2021-02-23 01:50:31.847619994 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '661'. It is no longer used by any node.
+2021-02-23 01:50:31.847676275 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '674'. It is no longer used by any node.
+2021-02-23 01:50:31.847730395 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '262'. It is no longer used by any node.
+2021-02-23 01:50:31.847784516 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '587'. It is no longer used by any node.
+2021-02-23 01:50:31.847837886 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '669'. It is no longer used by any node.
+2021-02-23 01:50:31.847892277 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '675'. It is no longer used by any node.
+2021-02-23 01:50:31.847946398 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '88'. It is no longer used by any node.
+2021-02-23 01:50:31.848000158 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '551'. It is no longer used by any node.
+2021-02-23 01:50:31.848055149 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '660'. It is no longer used by any node.
+2021-02-23 01:50:31.848109629 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '383'. It is no longer used by any node.
+2021-02-23 01:50:31.848164020 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '581'. It is no longer used by any node.
+2021-02-23 01:50:31.848217750 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '656'. It is no longer used by any node.
+2021-02-23 01:50:31.848271631 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '577'. It is no longer used by any node.
+2021-02-23 01:50:31.848325421 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '655'. It is no longer used by any node.
+2021-02-23 01:50:31.848380892 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '195'. It is no longer used by any node.
+2021-02-23 01:50:31.848451543 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '256'. It is no longer used by any node.
+2021-02-23 01:50:31.848506473 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '126'. It is no longer used by any node.
+2021-02-23 01:50:31.848561314 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '275'. It is no longer used by any node.
+2021-02-23 01:50:31.848615914 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '668'. It is no longer used by any node.
+2021-02-23 01:50:31.848669945 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '405'. It is no longer used by any node.
+2021-02-23 01:50:31.848724005 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '554'. It is no longer used by any node.
+2021-02-23 01:50:31.848778156 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '301'. It is no longer used by any node.
+2021-02-23 01:50:31.848832546 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '586'. It is no longer used by any node.
+2021-02-23 01:50:31.848886157 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '648'. It is no longer used by any node.
+2021-02-23 01:50:31.848939857 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '659'. It is no longer used by any node.
+2021-02-23 01:50:31.848993708 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '647'. It is no longer used by any node.
+2021-02-23 01:50:31.849046959 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '253'. It is no longer used by any node.
+2021-02-23 01:50:31.849100809 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '645'. It is no longer used by any node.
+2021-02-23 01:50:31.849154000 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '300'. It is no longer used by any node.
+2021-02-23 01:50:31.849207790 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '643'. It is no longer used by any node.
+2021-02-23 01:50:31.849262661 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '451'. It is no longer used by any node.
+2021-02-23 01:50:31.849317201 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '639'. It is no longer used by any node.
+2021-02-23 01:50:31.849370602 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '531'. It is no longer used by any node.
+2021-02-23 01:50:31.849424002 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '145'. It is no longer used by any node.
+2021-02-23 01:50:31.849477343 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '191'. It is no longer used by any node.
+2021-02-23 01:50:31.849534883 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '412'. It is no longer used by any node.
+2021-02-23 01:50:31.849592514 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '555'. It is no longer used by any node.
+2021-02-23 01:50:31.849647085 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '324'. It is no longer used by any node.
+2021-02-23 01:50:31.849700695 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '638'. It is no longer used by any node.
+2021-02-23 01:50:31.849754666 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '263'. It is no longer used by any node.
+2021-02-23 01:50:31.849808846 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '672'. It is no longer used by any node.
+2021-02-23 01:50:31.849862487 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '323'. It is no longer used by any node.
+2021-02-23 01:50:31.849935117 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '164'. It is no longer used by any node.
+2021-02-23 01:50:31.849991668 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '410'. It is no longer used by any node.
+2021-02-23 01:50:31.850046569 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '144'. It is no longer used by any node.
+2021-02-23 01:50:31.850101799 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer 'bert.embeddings.position_embeddings.weight'. It is no longer used by any node.
+2021-02-23 01:50:31.850160210 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '453'. It is no longer used by any node.
+2021-02-23 01:50:31.850217900 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '392'. It is no longer used by any node.
+2021-02-23 01:50:31.850273401 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '552'. It is no longer used by any node.
+2021-02-23 01:50:31.850327281 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '274'. It is no longer used by any node.
+2021-02-23 01:50:31.850382062 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '261'. It is no longer used by any node.
+2021-02-23 01:50:31.850435882 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '403'. It is no longer used by any node.
+2021-02-23 01:50:31.850493723 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '149'. It is no longer used by any node.
+2021-02-23 01:50:31.850548054 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '539'. It is no longer used by any node.
+2021-02-23 01:50:31.850603584 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer 'bert.embeddings.position_ids'. It is no longer used by any node.
+2021-02-23 01:50:31.850660315 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '671'. It is no longer used by any node.
+2021-02-23 01:50:31.850713985 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '688'. It is no longer used by any node.
+2021-02-23 01:50:31.850768706 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '302'. It is no longer used by any node.
+2021-02-23 01:50:31.850828346 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '382'. It is no longer used by any node.
+2021-02-23 01:50:31.850882677 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '542'. It is no longer used by any node.
+2021-02-23 01:50:31.850936557 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '449'. It is no longer used by any node.
+2021-02-23 01:50:31.850990078 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '681'. It is no longer used by any node.
+2021-02-23 01:50:31.851045399 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '579'. It is no longer used by any node.
+2021-02-23 01:50:31.851106899 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '89'. It is no longer used by any node.
+2021-02-23 01:50:31.851161920 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '662'. It is no longer used by any node.
+2021-02-23 01:50:31.851215800 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '642'. It is no longer used by any node.
+2021-02-23 01:50:31.851270521 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '431'. It is no longer used by any node.
+2021-02-23 01:50:31.851325691 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '154'. It is no longer used by any node.
+2021-02-23 01:50:31.851381192 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '384'. It is no longer used by any node.
+2021-02-23 01:50:31.851435372 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '673'. It is no longer used by any node.
+2021-02-23 01:50:31.851505963 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '147'. It is no longer used by any node.
+2021-02-23 01:50:31.851583994 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '86'. It is no longer used by any node.
+2021-02-23 01:50:31.851638534 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '293'. It is no longer used by any node.
+2021-02-23 01:50:31.851693375 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '520'. It is no longer used by any node.
+2021-02-23 01:50:31.851749356 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '521'. It is no longer used by any node.
+2021-02-23 01:50:31.851805696 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '684'. It is no longer used by any node.
+2021-02-23 01:50:31.851859937 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '686'. It is no longer used by any node.
+2021-02-23 01:50:31.851913757 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '168'. It is no longer used by any node.
+2021-02-23 01:50:31.851967878 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '328'. It is no longer used by any node.
+2021-02-23 01:50:31.852026648 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '326'. It is no longer used by any node.
+2021-02-23 01:50:31.852081729 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '550'. It is no longer used by any node.
+2021-02-23 01:50:31.852136089 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '87'. It is no longer used by any node.
+2021-02-23 01:50:31.852189970 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '173'. It is no longer used by any node.
+2021-02-23 01:50:31.852244031 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '192'. It is no longer used by any node.
+2021-02-23 01:50:31.852298091 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '658'. It is no longer used by any node.
+2021-02-23 01:50:31.852351582 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '99'. It is no longer used by any node.
+2021-02-23 01:50:31.852406722 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '124'. It is no longer used by any node.
+2021-02-23 01:50:31.852460783 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '127'. It is no longer used by any node.
+2021-02-23 01:50:31.852515203 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '385'. It is no longer used by any node.
+2021-02-23 01:50:31.852569054 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '131'. It is no longer used by any node.
+2021-02-23 01:50:31.852622934 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '148'. It is no longer used by any node.
+2021-02-23 01:50:31.852676695 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '320'. It is no longer used by any node.
+2021-02-23 01:50:31.852730695 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '133'. It is no longer used by any node.
+2021-02-23 01:50:31.852784396 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '152'. It is no longer used by any node.
+2021-02-23 01:50:31.852838576 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '167'. It is no longer used by any node.
+2021-02-23 01:50:31.852892427 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '685'. It is no longer used by any node.
+2021-02-23 01:50:31.852946068 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '171'. It is no longer used by any node.
+2021-02-23 01:50:31.853023708 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '404'. It is no longer used by any node.
+2021-02-23 01:50:31.853078669 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '194'. It is no longer used by any node.
+2021-02-23 01:50:31.853132729 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '123'. It is no longer used by any node.
+2021-02-23 01:50:31.853186190 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '429'. It is no longer used by any node.
+2021-02-23 01:50:31.853240250 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '197'. It is no longer used by any node.
+2021-02-23 01:50:31.853294251 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '199'. It is no longer used by any node.
+2021-02-23 01:50:31.853348912 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '95'. It is no longer used by any node.
+2021-02-23 01:50:31.853403542 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '425'. It is no longer used by any node.
+2021-02-23 01:50:31.853458023 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '511'. It is no longer used by any node.
+2021-02-23 01:50:31.853513343 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '649'. It is no longer used by any node.
+2021-02-23 01:50:31.853567374 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '260'. It is no longer used by any node.
+2021-02-23 01:50:31.853621014 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '277'. It is no longer used by any node.
+2021-02-23 01:50:31.853674775 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '281'. It is no longer used by any node.
+2021-02-23 01:50:31.853728295 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '646'. It is no longer used by any node.
+2021-02-23 01:50:31.853781666 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '283'. It is no longer used by any node.
+2021-02-23 01:50:31.853835936 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '90'. It is no longer used by any node.
+2021-02-23 01:50:31.853889607 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '682'. It is no longer used by any node.
+2021-02-23 01:50:31.853944658 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '296'. It is no longer used by any node.
+2021-02-23 01:50:31.853999198 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '535'. It is no longer used by any node.
+2021-02-23 01:50:31.854053589 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '200'. It is no longer used by any node.
+2021-02-23 01:50:31.854107949 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '389'. It is no longer used by any node.
+2021-02-23 01:50:31.854162070 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '536'. It is no longer used by any node.
+2021-02-23 01:50:31.854215530 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '278'. It is no longer used by any node.
+2021-02-23 01:50:31.854268781 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '391'. It is no longer used by any node.
+2021-02-23 01:50:31.854322931 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '510'. It is no longer used by any node.
+2021-02-23 01:50:31.854377142 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '406'. It is no longer used by any node.
+2021-02-23 01:50:31.854432072 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '687'. It is no longer used by any node.
+2021-02-23 01:50:31.854485893 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '422'. It is no longer used by any node.
+2021-02-23 01:50:31.854558494 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '452'. It is no longer used by any node.
+2021-02-23 01:50:31.854614054 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '455'. It is no longer used by any node.
+2021-02-23 01:50:31.854668115 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '560'. It is no longer used by any node.
+2021-02-23 01:50:31.854721905 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '457'. It is no longer used by any node.
+2021-02-23 01:50:31.854776956 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '515'. It is no longer used by any node.
+2021-02-23 01:50:31.854831976 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '541'. It is no longer used by any node.
+2021-02-23 01:50:31.854886547 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '514'. It is no longer used by any node.
+2021-02-23 01:50:31.854941267 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '518'. It is no longer used by any node.
+2021-02-23 01:50:31.854995118 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '532'. It is no longer used by any node.
+2021-02-23 01:50:31.855048669 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '558'. It is no longer used by any node.
+2021-02-23 01:50:31.879471883 [V:onnxruntime:, inference_session.cc:889 TransformGraph] Node placements
+2021-02-23 01:50:31.879569324 [V:onnxruntime:, inference_session.cc:891 TransformGraph] All nodes have been placed on [CPUExecutionProvider].
+2021-02-23 01:50:31.891060339 [V:onnxruntime:, session_state.cc:76 CreateGraphInfo] SaveMLValueNameIndexMapping
+2021-02-23 01:50:31.892502033 [V:onnxruntime:, session_state.cc:122 CreateGraphInfo] Done saving OrtValue mappings.
+2021-02-23 01:50:31.901578294 [I:onnxruntime:, session_state_utils.cc:203 SaveInitializedTensors] Saving initialized tensors.
+2021-02-23 01:50:32.055817426 [I:onnxruntime:, session_state_utils.cc:333 SaveInitializedTensors] Done saving initialized tensors
+2021-02-23 01:50:32.078508273 [I:onnxruntime:, inference_session.cc:1271 Initialize] Session successfully initialized.
+2021-02-23 01:50:32.079325811 [I:onnxruntime:, sequential_executor.cc:159 Execute] Begin execution
+2021-02-23 01:50:32.676720675 [I:onnxruntime:, sequential_executor.cc:518 Execute] [Memory] ExecutionFrame dynamically allocates 9443584 bytes for Cpu
+
+2021-02-23 01:50:32.681415482 [I:onnxruntime:, profiler.cc:146 EndProfiling] Writing profiler data to file cpu__2021-02-23_01-50-31.json
+2021-02-23 01:50:32.692722385 [V:onnxruntime:, inference_session.cc:1733 EndProfiling] Profiler is disabled.
+2021-02-23 01:50:33.790562933 [I:onnxruntime:, inference_session.cc:230 ConstructorCommon] Creating and using per session threadpools since use_per_session_threads_ is true
+2021-02-23 01:50:34.137767655 [I:onnxruntime:, inference_session.cc:1095 Initialize] Initializing session.
+2021-02-23 01:50:34.187435221 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '585'. It is no longer used by any node.
+2021-02-23 01:50:34.187563233 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '582'. It is no longer used by any node.
+2021-02-23 01:50:34.187628753 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '540'. It is no longer used by any node.
+2021-02-23 01:50:34.187685784 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '533'. It is no longer used by any node.
+2021-02-23 01:50:34.187741164 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '534'. It is no longer used by any node.
+2021-02-23 01:50:34.187798015 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '559'. It is no longer used by any node.
+2021-02-23 01:50:34.187852526 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '561'. It is no longer used by any node.
+2021-02-23 01:50:34.187940276 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '553'. It is no longer used by any node.
+2021-02-23 01:50:34.187996137 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '519'. It is no longer used by any node.
+2021-02-23 01:50:34.188052208 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '450'. It is no longer used by any node.
+2021-02-23 01:50:34.188106598 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '448'. It is no longer used by any node.
+2021-02-23 01:50:34.188161409 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '458'. It is no longer used by any node.
+2021-02-23 01:50:34.188215949 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '411'. It is no longer used by any node.
+2021-02-23 01:50:34.188269950 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '402'. It is no longer used by any node.
+2021-02-23 01:50:34.188323950 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '413'. It is no longer used by any node.
+2021-02-23 01:50:34.188378311 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '407'. It is no longer used by any node.
+2021-02-23 01:50:34.188432221 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '430'. It is no longer used by any node.
+2021-02-23 01:50:34.188487812 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '421'. It is no longer used by any node.
+2021-02-23 01:50:34.188542263 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '432'. It is no longer used by any node.
+2021-02-23 01:50:34.188595693 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '426'. It is no longer used by any node.
+2021-02-23 01:50:34.188649424 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '424'. It is no longer used by any node.
+2021-02-23 01:50:34.188703214 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '456'. It is no longer used by any node.
+2021-02-23 01:50:34.188757725 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '390'. It is no longer used by any node.
+2021-02-23 01:50:34.188812145 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '381'. It is no longer used by any node.
+2021-02-23 01:50:34.188866056 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '386'. It is no longer used by any node.
+2021-02-23 01:50:34.188920326 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '327'. It is no longer used by any node.
+2021-02-23 01:50:34.188973757 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '321'. It is no longer used by any node.
+2021-02-23 01:50:34.189027517 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '329'. It is no longer used by any node.
+2021-02-23 01:50:34.189081188 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '322'. It is no longer used by any node.
+2021-02-23 01:50:34.189135158 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '273'. It is no longer used by any node.
+2021-02-23 01:50:34.189188559 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '284'. It is no longer used by any node.
+2021-02-23 01:50:34.189242380 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '276'. It is no longer used by any node.
+2021-02-23 01:50:34.189296230 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '294'. It is no longer used by any node.
+2021-02-23 01:50:34.189354131 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '292'. It is no longer used by any node.
+2021-02-23 01:50:34.189426761 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '303'. It is no longer used by any node.
+2021-02-23 01:50:34.189482862 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '297'. It is no longer used by any node.
+2021-02-23 01:50:34.189537522 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '295'. It is no longer used by any node.
+2021-02-23 01:50:34.189592063 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '254'. It is no longer used by any node.
+2021-02-23 01:50:34.189646004 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '252'. It is no longer used by any node.
+2021-02-23 01:50:34.189699824 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '257'. It is no longer used by any node.
+2021-02-23 01:50:34.189753465 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '255'. It is no longer used by any node.
+2021-02-23 01:50:34.189807795 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '198'. It is no longer used by any node.
+2021-02-23 01:50:34.189862066 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '190'. It is no longer used by any node.
+2021-02-23 01:50:34.189915496 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '193'. It is no longer used by any node.
+2021-02-23 01:50:34.189970337 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '153'. It is no longer used by any node.
+2021-02-23 01:50:34.190023767 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '155'. It is no longer used by any node.
+2021-02-23 01:50:34.190077198 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '172'. It is no longer used by any node.
+2021-02-23 01:50:34.190131168 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '165'. It is no longer used by any node.
+2021-02-23 01:50:34.190184929 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '163'. It is no longer used by any node.
+2021-02-23 01:50:34.190238809 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '174'. It is no longer used by any node.
+2021-02-23 01:50:34.190293080 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '319'. It is no longer used by any node.
+2021-02-23 01:50:34.190346811 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '166'. It is no longer used by any node.
+2021-02-23 01:50:34.190401081 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '282'. It is no longer used by any node.
+2021-02-23 01:50:34.190454722 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '132'. It is no longer used by any node.
+2021-02-23 01:50:34.190508932 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '125'. It is no longer used by any node.
+2021-02-23 01:50:34.190562903 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '134'. It is no longer used by any node.
+2021-02-23 01:50:34.190616663 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '128'. It is no longer used by any node.
+2021-02-23 01:50:34.190670934 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '100'. It is no longer used by any node.
+2021-02-23 01:50:34.190725534 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '96'. It is no longer used by any node.
+2021-02-23 01:50:34.190779115 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '580'. It is no longer used by any node.
+2021-02-23 01:50:34.190833355 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '512'. It is no longer used by any node.
+2021-02-23 01:50:34.190887836 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '513'. It is no longer used by any node.
+2021-02-23 01:50:34.190959237 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '584'. It is no longer used by any node.
+2021-02-23 01:50:34.191014107 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '578'. It is no longer used by any node.
+2021-02-23 01:50:34.191068468 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '146'. It is no longer used by any node.
+2021-02-23 01:50:34.191129668 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '423'. It is no longer used by any node.
+2021-02-23 01:50:34.191186159 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '661'. It is no longer used by any node.
+2021-02-23 01:50:34.191241930 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '674'. It is no longer used by any node.
+2021-02-23 01:50:34.191296350 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '262'. It is no longer used by any node.
+2021-02-23 01:50:34.191350711 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '587'. It is no longer used by any node.
+2021-02-23 01:50:34.191404501 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '669'. It is no longer used by any node.
+2021-02-23 01:50:34.191459162 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '675'. It is no longer used by any node.
+2021-02-23 01:50:34.191513072 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '88'. It is no longer used by any node.
+2021-02-23 01:50:34.191590383 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '551'. It is no longer used by any node.
+2021-02-23 01:50:34.191646604 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '660'. It is no longer used by any node.
+2021-02-23 01:50:34.191701654 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '383'. It is no longer used by any node.
+2021-02-23 01:50:34.191756705 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '581'. It is no longer used by any node.
+2021-02-23 01:50:34.191810555 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '656'. It is no longer used by any node.
+2021-02-23 01:50:34.191865096 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '577'. It is no longer used by any node.
+2021-02-23 01:50:34.191918886 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '655'. It is no longer used by any node.
+2021-02-23 01:50:34.191974627 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '195'. It is no longer used by any node.
+2021-02-23 01:50:34.192028717 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '256'. It is no longer used by any node.
+2021-02-23 01:50:34.192082778 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '126'. It is no longer used by any node.
+2021-02-23 01:50:34.192136958 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '275'. It is no longer used by any node.
+2021-02-23 01:50:34.192191349 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '668'. It is no longer used by any node.
+2021-02-23 01:50:34.192245110 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '405'. It is no longer used by any node.
+2021-02-23 01:50:34.192298840 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '554'. It is no longer used by any node.
+2021-02-23 01:50:34.192353321 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '301'. It is no longer used by any node.
+2021-02-23 01:50:34.192407711 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '586'. It is no longer used by any node.
+2021-02-23 01:50:34.192461142 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '648'. It is no longer used by any node.
+2021-02-23 01:50:34.192532362 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '659'. It is no longer used by any node.
+2021-02-23 01:50:34.192587623 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '647'. It is no longer used by any node.
+2021-02-23 01:50:34.192641383 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '253'. It is no longer used by any node.
+2021-02-23 01:50:34.192695444 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '645'. It is no longer used by any node.
+2021-02-23 01:50:34.192749415 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '300'. It is no longer used by any node.
+2021-02-23 01:50:34.192803055 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '643'. It is no longer used by any node.
+2021-02-23 01:50:34.192858106 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '451'. It is no longer used by any node.
+2021-02-23 01:50:34.192912946 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '639'. It is no longer used by any node.
+2021-02-23 01:50:34.192967007 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '531'. It is no longer used by any node.
+2021-02-23 01:50:34.193021037 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '145'. It is no longer used by any node.
+2021-02-23 01:50:34.193074588 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '191'. It is no longer used by any node.
+2021-02-23 01:50:34.193132998 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '412'. It is no longer used by any node.
+2021-02-23 01:50:34.193189879 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '555'. It is no longer used by any node.
+2021-02-23 01:50:34.193243850 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '324'. It is no longer used by any node.
+2021-02-23 01:50:34.193297940 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '638'. It is no longer used by any node.
+2021-02-23 01:50:34.193352151 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '263'. It is no longer used by any node.
+2021-02-23 01:50:34.193406361 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '672'. It is no longer used by any node.
+2021-02-23 01:50:34.193460032 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '323'. It is no longer used by any node.
+2021-02-23 01:50:34.193515772 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '164'. It is no longer used by any node.
+2021-02-23 01:50:34.193571093 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '410'. It is no longer used by any node.
+2021-02-23 01:50:34.193625303 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '144'. It is no longer used by any node.
+2021-02-23 01:50:34.193680414 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer 'bert.embeddings.position_embeddings.weight'. It is no longer used by any node.
+2021-02-23 01:50:34.193738044 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '453'. It is no longer used by any node.
+2021-02-23 01:50:34.193795675 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '392'. It is no longer used by any node.
+2021-02-23 01:50:34.193851896 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '552'. It is no longer used by any node.
+2021-02-23 01:50:34.193906196 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '274'. It is no longer used by any node.
+2021-02-23 01:50:34.193961097 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '261'. It is no longer used by any node.
+2021-02-23 01:50:34.194032077 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '403'. It is no longer used by any node.
+2021-02-23 01:50:34.194090698 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '149'. It is no longer used by any node.
+2021-02-23 01:50:34.194145599 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '539'. It is no longer used by any node.
+2021-02-23 01:50:34.194201279 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer 'bert.embeddings.position_ids'. It is no longer used by any node.
+2021-02-23 01:50:34.194257950 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '671'. It is no longer used by any node.
+2021-02-23 01:50:34.194312340 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '688'. It is no longer used by any node.
+2021-02-23 01:50:34.194366671 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '302'. It is no longer used by any node.
+2021-02-23 01:50:34.194426221 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '382'. It is no longer used by any node.
+2021-02-23 01:50:34.194480012 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '542'. It is no longer used by any node.
+2021-02-23 01:50:34.194533772 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '449'. It is no longer used by any node.
+2021-02-23 01:50:34.194588133 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '681'. It is no longer used by any node.
+2021-02-23 01:50:34.194643244 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '579'. It is no longer used by any node.
+2021-02-23 01:50:34.194706034 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '89'. It is no longer used by any node.
+2021-02-23 01:50:34.194761985 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '662'. It is no longer used by any node.
+2021-02-23 01:50:34.194816255 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '642'. It is no longer used by any node.
+2021-02-23 01:50:34.194871396 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '431'. It is no longer used by any node.
+2021-02-23 01:50:34.194926386 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '154'. It is no longer used by any node.
+2021-02-23 01:50:34.194982007 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '384'. It is no longer used by any node.
+2021-02-23 01:50:34.195036397 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '673'. It is no longer used by any node.
+2021-02-23 01:50:34.195090278 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '147'. It is no longer used by any node.
+2021-02-23 01:50:34.195144369 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '86'. It is no longer used by any node.
+2021-02-23 01:50:34.195197919 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '293'. It is no longer used by any node.
+2021-02-23 01:50:34.195252640 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '520'. It is no longer used by any node.
+2021-02-23 01:50:34.195308350 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '521'. It is no longer used by any node.
+2021-02-23 01:50:34.195364661 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '684'. It is no longer used by any node.
+2021-02-23 01:50:34.195419291 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '686'. It is no longer used by any node.
+2021-02-23 01:50:34.195473202 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '168'. It is no longer used by any node.
+2021-02-23 01:50:34.195543493 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '328'. It is no longer used by any node.
+2021-02-23 01:50:34.195625513 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '326'. It is no longer used by any node.
+2021-02-23 01:50:34.195681884 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '550'. It is no longer used by any node.
+2021-02-23 01:50:34.195736814 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '87'. It is no longer used by any node.
+2021-02-23 01:50:34.195790665 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '173'. It is no longer used by any node.
+2021-02-23 01:50:34.195844426 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '192'. It is no longer used by any node.
+2021-02-23 01:50:34.195898486 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '658'. It is no longer used by any node.
+2021-02-23 01:50:34.195953147 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '99'. It is no longer used by any node.
+2021-02-23 01:50:34.196008317 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '124'. It is no longer used by any node.
+2021-02-23 01:50:34.196062648 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '127'. It is no longer used by any node.
+2021-02-23 01:50:34.196117038 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '385'. It is no longer used by any node.
+2021-02-23 01:50:34.196170589 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '131'. It is no longer used by any node.
+2021-02-23 01:50:34.196223929 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '148'. It is no longer used by any node.
+2021-02-23 01:50:34.196278440 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '320'. It is no longer used by any node.
+2021-02-23 01:50:34.196332350 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '133'. It is no longer used by any node.
+2021-02-23 01:50:34.196386141 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '152'. It is no longer used by any node.
+2021-02-23 01:50:34.196440231 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '167'. It is no longer used by any node.
+2021-02-23 01:50:34.196494172 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '685'. It is no longer used by any node.
+2021-02-23 01:50:34.196547993 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '171'. It is no longer used by any node.
+2021-02-23 01:50:34.196601393 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '404'. It is no longer used by any node.
+2021-02-23 01:50:34.196655304 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '194'. It is no longer used by any node.
+2021-02-23 01:50:34.196708494 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '123'. It is no longer used by any node.
+2021-02-23 01:50:34.196761865 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '429'. It is no longer used by any node.
+2021-02-23 01:50:34.196815415 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '197'. It is no longer used by any node.
+2021-02-23 01:50:34.196868996 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '199'. It is no longer used by any node.
+2021-02-23 01:50:34.196923596 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '95'. It is no longer used by any node.
+2021-02-23 01:50:34.196978167 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '425'. It is no longer used by any node.
+2021-02-23 01:50:34.197032227 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '511'. It is no longer used by any node.
+2021-02-23 01:50:34.197104018 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '649'. It is no longer used by any node.
+2021-02-23 01:50:34.197158979 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '260'. It is no longer used by any node.
+2021-02-23 01:50:34.197213279 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '277'. It is no longer used by any node.
+2021-02-23 01:50:34.197266710 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '281'. It is no longer used by any node.
+2021-02-23 01:50:34.197320590 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '646'. It is no longer used by any node.
+2021-02-23 01:50:34.197374501 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '283'. It is no longer used by any node.
+2021-02-23 01:50:34.197428321 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '90'. It is no longer used by any node.
+2021-02-23 01:50:34.197482172 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '682'. It is no longer used by any node.
+2021-02-23 01:50:34.197536952 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '296'. It is no longer used by any node.
+2021-02-23 01:50:34.197592063 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '535'. It is no longer used by any node.
+2021-02-23 01:50:34.197646814 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '200'. It is no longer used by any node.
+2021-02-23 01:50:34.197700844 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '389'. It is no longer used by any node.
+2021-02-23 01:50:34.197754575 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '536'. It is no longer used by any node.
+2021-02-23 01:50:34.197808035 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '278'. It is no longer used by any node.
+2021-02-23 01:50:34.197861796 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '391'. It is no longer used by any node.
+2021-02-23 01:50:34.197915796 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '510'. It is no longer used by any node.
+2021-02-23 01:50:34.197970097 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '406'. It is no longer used by any node.
+2021-02-23 01:50:34.198024847 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '687'. It is no longer used by any node.
+2021-02-23 01:50:34.198079298 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '422'. It is no longer used by any node.
+2021-02-23 01:50:34.198135218 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '452'. It is no longer used by any node.
+2021-02-23 01:50:34.198189729 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '455'. It is no longer used by any node.
+2021-02-23 01:50:34.198244330 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '560'. It is no longer used by any node.
+2021-02-23 01:50:34.198298420 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '457'. It is no longer used by any node.
+2021-02-23 01:50:34.198353021 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '515'. It is no longer used by any node.
+2021-02-23 01:50:34.198407861 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '541'. It is no longer used by any node.
+2021-02-23 01:50:34.198462222 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '514'. It is no longer used by any node.
+2021-02-23 01:50:34.198516522 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '518'. It is no longer used by any node.
+2021-02-23 01:50:34.198570523 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '532'. It is no longer used by any node.
+2021-02-23 01:50:34.198640423 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '558'. It is no longer used by any node.
+2021-02-23 01:50:34.205827805 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: Gather node name: Gather_19
+2021-02-23 01:50:34.205907546 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: Gather node name: Gather_18
+2021-02-23 01:50:34.206016117 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: ReduceMean node name: ReduceMean_23
+2021-02-23 01:50:34.206098738 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: Pow node name: Pow_26
+2021-02-23 01:50:34.206160179 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: ReduceMean node name: ReduceMean_27
+2021-02-23 01:50:34.206239829 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: Sqrt node name: Sqrt_30
+2021-02-23 01:50:34.206299710 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: Div node name: Div_31
+2021-02-23 01:50:34.206446232 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: Reshape node name: Reshape_49
+2021-02-23 01:50:34.206507942 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: Transpose node name: Transpose_78
+2021-02-23 01:50:34.206615853 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: Reshape node name: Reshape_76
+2021-02-23 01:50:34.206676844 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: Transpose node name: Transpose_77
+2021-02-23 01:50:34.206763785 [W:onnxruntime:Default, pim_execution_provider.cc:225 GetCapability] PIM kernel not supported. Fallback to CPU execution provider for Op type: MatMul node name: MatMul_79
+2021-02-23 01:50:34.206827325 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: Div node name: Div_81
+2021-02-23 01:50:34.206887626 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: Unsqueeze node name: Unsqueeze_1
+2021-02-23 01:50:34.206946637 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: Unsqueeze node name: Unsqueeze_3
+2021-02-23 01:50:34.207005197 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: Cast node name: Cast_4
+2021-02-23 01:50:34.207080258 [W:onnxruntime:Default, pim_execution_provider.cc:225 GetCapability] PIM kernel not supported. Fallback to CPU execution provider for Op type: Sub node name: Sub_6
+2021-02-23 01:50:34.207157239 [W:onnxruntime:Default, pim_execution_provider.cc:225 GetCapability] PIM kernel not supported. Fallback to CPU execution provider for Op type: Mul node name: Mul_8
+2021-02-23 01:50:34.207233319 [W:onnxruntime:Default, pim_execution_provider.cc:225 GetCapability] PIM kernel not supported. Fallback to CPU execution provider for Op type: Add node name: Add_82
+2021-02-23 01:50:34.207294250 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: Softmax node name: Softmax_83
+2021-02-23 01:50:34.207400721 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: Reshape node name: Reshape_63
+2021-02-23 01:50:34.207461382 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: Transpose node name: Transpose_64
+2021-02-23 01:50:34.207593623 [W:onnxruntime:Default, pim_execution_provider.cc:225 GetCapability] PIM kernel not supported. Fallback to CPU execution provider for Op type: MatMul node name: MatMul_84
+2021-02-23 01:50:34.207662324 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: Transpose node name: Transpose_85
+2021-02-23 01:50:34.207723224 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: Reshape node name: Reshape_97
+2021-02-23 01:50:34.207847396 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: ReduceMean node name: ReduceMean_101
+2021-02-23 01:50:34.207927556 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: Pow node name: Pow_104
+2021-02-23 01:50:34.207988787 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: ReduceMean node name: ReduceMean_105
+2021-02-23 01:50:34.208068468 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: Sqrt node name: Sqrt_108
+2021-02-23 01:50:34.208128768 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: Div node name: Div_109
+2021-02-23 01:50:34.208271120 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: Div node name: Div_115
+2021-02-23 01:50:34.208332530 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: Erf node name: Erf_116
+2021-02-23 01:50:34.208509292 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: ReduceMean node name: ReduceMean_125
+2021-02-23 01:50:34.208590083 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: Pow node name: Pow_128
+2021-02-23 01:50:34.208650864 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: ReduceMean node name: ReduceMean_129
+2021-02-23 01:50:34.208729404 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: Sqrt node name: Sqrt_132
+2021-02-23 01:50:34.208789225 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: Div node name: Div_133
+2021-02-23 01:50:34.208931966 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: Reshape node name: Reshape_151
+2021-02-23 01:50:34.208992927 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: Transpose node name: Transpose_180
+2021-02-23 01:50:34.209099668 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: Reshape node name: Reshape_178
+2021-02-23 01:50:34.209160089 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: Transpose node name: Transpose_179
+2021-02-23 01:50:34.209244690 [W:onnxruntime:Default, pim_execution_provider.cc:225 GetCapability] PIM kernel not supported. Fallback to CPU execution provider for Op type: MatMul node name: MatMul_181
+2021-02-23 01:50:34.209305860 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: Div node name: Div_183
+2021-02-23 01:50:34.209380171 [W:onnxruntime:Default, pim_execution_provider.cc:225 GetCapability] PIM kernel not supported. Fallback to CPU execution provider for Op type: Add node name: Add_184
+2021-02-23 01:50:34.209441131 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: Softmax node name: Softmax_185
+2021-02-23 01:50:34.209565843 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: Reshape node name: Reshape_165
+2021-02-23 01:50:34.209627433 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: Transpose node name: Transpose_166
+2021-02-23 01:50:34.209713024 [W:onnxruntime:Default, pim_execution_provider.cc:225 GetCapability] PIM kernel not supported. Fallback to CPU execution provider for Op type: MatMul node name: MatMul_186
+2021-02-23 01:50:34.209774195 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: Transpose node name: Transpose_187
+2021-02-23 01:50:34.209833625 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: Reshape node name: Reshape_199
+2021-02-23 01:50:34.209957527 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: ReduceMean node name: ReduceMean_203
+2021-02-23 01:50:34.210038257 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: Pow node name: Pow_206
+2021-02-23 01:50:34.210098618 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: ReduceMean node name: ReduceMean_207
+2021-02-23 01:50:34.210176799 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: Sqrt node name: Sqrt_210
+2021-02-23 01:50:34.210236679 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: Div node name: Div_211
+2021-02-23 01:50:34.210378251 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: Div node name: Div_217
+2021-02-23 01:50:34.210438851 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: Erf node name: Erf_218
+2021-02-23 01:50:34.210614593 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: ReduceMean node name: ReduceMean_227
+2021-02-23 01:50:34.210694814 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: Pow node name: Pow_230
+2021-02-23 01:50:34.210755085 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: ReduceMean node name: ReduceMean_231
+2021-02-23 01:50:34.210832695 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: Sqrt node name: Sqrt_234
+2021-02-23 01:50:34.210892276 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: Div node name: Div_235
+2021-02-23 01:50:34.211034267 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: Reshape node name: Reshape_253
+2021-02-23 01:50:34.211095468 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: Transpose node name: Transpose_282
+2021-02-23 01:50:34.211202269 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: Reshape node name: Reshape_280
+2021-02-23 01:50:34.211263050 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: Transpose node name: Transpose_281
+2021-02-23 01:50:34.211346901 [W:onnxruntime:Default, pim_execution_provider.cc:225 GetCapability] PIM kernel not supported. Fallback to CPU execution provider for Op type: MatMul node name: MatMul_283
+2021-02-23 01:50:34.211407921 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: Div node name: Div_285
+2021-02-23 01:50:34.211499422 [W:onnxruntime:Default, pim_execution_provider.cc:225 GetCapability] PIM kernel not supported. Fallback to CPU execution provider for Op type: Add node name: Add_286
+2021-02-23 01:50:34.211583543 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: Softmax node name: Softmax_287
+2021-02-23 01:50:34.211691634 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: Reshape node name: Reshape_267
+2021-02-23 01:50:34.211752355 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: Transpose node name: Transpose_268
+2021-02-23 01:50:34.211836235 [W:onnxruntime:Default, pim_execution_provider.cc:225 GetCapability] PIM kernel not supported. Fallback to CPU execution provider for Op type: MatMul node name: MatMul_288
+2021-02-23 01:50:34.211897826 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: Transpose node name: Transpose_289
+2021-02-23 01:50:34.211957377 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: Reshape node name: Reshape_301
+2021-02-23 01:50:34.212079208 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: ReduceMean node name: ReduceMean_305
+2021-02-23 01:50:34.212158649 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: Pow node name: Pow_308
+2021-02-23 01:50:34.212219219 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: ReduceMean node name: ReduceMean_309
+2021-02-23 01:50:34.212296230 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: Sqrt node name: Sqrt_312
+2021-02-23 01:50:34.212355901 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: Div node name: Div_313
+2021-02-23 01:50:34.212495852 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: Div node name: Div_319
+2021-02-23 01:50:34.212556843 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: Erf node name: Erf_320
+2021-02-23 01:50:34.212732314 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: ReduceMean node name: ReduceMean_329
+2021-02-23 01:50:34.212812835 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: Pow node name: Pow_332
+2021-02-23 01:50:34.212873766 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: ReduceMean node name: ReduceMean_333
+2021-02-23 01:50:34.212951977 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: Sqrt node name: Sqrt_336
+2021-02-23 01:50:34.213011737 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: Div node name: Div_337
+2021-02-23 01:50:34.213152619 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: Reshape node name: Reshape_355
+2021-02-23 01:50:34.213213459 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: Transpose node name: Transpose_384
+2021-02-23 01:50:34.213319780 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: Reshape node name: Reshape_382
+2021-02-23 01:50:34.213379991 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: Transpose node name: Transpose_383
+2021-02-23 01:50:34.213481602 [W:onnxruntime:Default, pim_execution_provider.cc:225 GetCapability] PIM kernel not supported. Fallback to CPU execution provider for Op type: MatMul node name: MatMul_385
+2021-02-23 01:50:34.213543433 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: Div node name: Div_387
+2021-02-23 01:50:34.213617413 [W:onnxruntime:Default, pim_execution_provider.cc:225 GetCapability] PIM kernel not supported. Fallback to CPU execution provider for Op type: Add node name: Add_388
+2021-02-23 01:50:34.213678434 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: Softmax node name: Softmax_389
+2021-02-23 01:50:34.213783735 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: Reshape node name: Reshape_369
+2021-02-23 01:50:34.213844846 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: Transpose node name: Transpose_370
+2021-02-23 01:50:34.213929206 [W:onnxruntime:Default, pim_execution_provider.cc:225 GetCapability] PIM kernel not supported. Fallback to CPU execution provider for Op type: MatMul node name: MatMul_390
+2021-02-23 01:50:34.213989987 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: Transpose node name: Transpose_391
+2021-02-23 01:50:34.214049508 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: Reshape node name: Reshape_403
+2021-02-23 01:50:34.214171669 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: ReduceMean node name: ReduceMean_407
+2021-02-23 01:50:34.214251140 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: Pow node name: Pow_410
+2021-02-23 01:50:34.214312250 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: ReduceMean node name: ReduceMean_411
+2021-02-23 01:50:34.214390941 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: Sqrt node name: Sqrt_414
+2021-02-23 01:50:34.214450642 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: Div node name: Div_415
+2021-02-23 01:50:34.214591673 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: Div node name: Div_421
+2021-02-23 01:50:34.214652394 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: Erf node name: Erf_422
+2021-02-23 01:50:34.214826665 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: ReduceMean node name: ReduceMean_431
+2021-02-23 01:50:34.214906826 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: Pow node name: Pow_434
+2021-02-23 01:50:34.214967547 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: ReduceMean node name: ReduceMean_435
+2021-02-23 01:50:34.215046418 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: Sqrt node name: Sqrt_438
+2021-02-23 01:50:34.215106328 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: Div node name: Div_439
+2021-02-23 01:50:34.215201909 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: Gather node name: Gather_443
+2021-02-23 01:50:34.215301570 [W:onnxruntime:Default, pim_execution_provider.cc:225 GetCapability] PIM kernel not supported. Fallback to CPU execution provider for Op type: Gemm node name: Gemm_444
+2021-02-23 01:50:34.215379721 [W:onnxruntime:Default, pim_execution_provider.cc:108 GetCapability] PIM kernel not found in registries for Op type: Tanh node name: Tanh_445
+2021-02-23 01:50:34.215477732 [W:onnxruntime:Default, pim_execution_provider.cc:225 GetCapability] PIM kernel not supported. Fallback to CPU execution provider for Op type: Gemm node name: Gemm_446
+2021-02-23 01:50:34.227742274 [V:onnxruntime:, inference_session.cc:889 TransformGraph] Node placements
+2021-02-23 01:50:34.227893866 [V:onnxruntime:, inference_session.cc:896 TransformGraph]  Provider: [PIMExecutionProvider]: [Add (Add_20), Add (Add_22), Sub (Sub_24), Add (Add_29), Mul (Mul_32), Add (Add_33), MatMul (MatMul_34), Add (Add_35), MatMul (MatMul_36), Add (Add_37), MatMul (MatMul_50), Add (Add_51), MatMul (MatMul_98), Add (Add_99), Add (Add_100), Sub (Sub_102), Add (Add_107), Mul (Mul_110), Add (Add_111), MatMul (MatMul_112), Add (Add_113), Add (Add_118), Mul (Mul_119), Mul (Mul_121), MatMul (MatMul_122), Add (Add_123), Add (Add_124), Sub (Sub_126), Add (Add_131), Mul (Mul_134), Add (Add_135), MatMul (MatMul_136), Add (Add_137), MatMul (MatMul_138), Add (Add_139), MatMul (MatMul_152), Add (Add_153), MatMul (MatMul_200), Add (Add_201), Add (Add_202), Sub (Sub_204), Add (Add_209), Mul (Mul_212), Add (Add_213), MatMul (MatMul_214), Add (Add_215), Add (Add_220), Mul (Mul_221), Mul (Mul_223), MatMul (MatMul_224), Add (Add_225), Add (Add_226), Sub (Sub_228), Add (Add_233), Mul (Mul_236), Add (Add_237), MatMul (MatMul_238), Add (Add_239), MatMul (MatMul_240), Add (Add_241), MatMul (MatMul_254), Add (Add_255), MatMul (MatMul_302), Add (Add_303), Add (Add_304), Sub (Sub_306), Add (Add_311), Mul (Mul_314), Add (Add_315), MatMul (MatMul_316), Add (Add_317), Add (Add_322), Mul (Mul_323), Mul (Mul_325), MatMul (MatMul_326), Add (Add_327), Add (Add_328), Sub (Sub_330), Add (Add_335), Mul (Mul_338), Add (Add_339), MatMul (MatMul_340), Add (Add_341), MatMul (MatMul_342), Add (Add_343), MatMul (MatMul_356), Add (Add_357), MatMul (MatMul_404), Add (Add_405), Add (Add_406), Sub (Sub_408), Add (Add_413), Mul (Mul_416), Add (Add_417), MatMul (MatMul_418), Add (Add_419), Add (Add_424), Mul (Mul_425), Mul (Mul_427), MatMul (MatMul_428), Add (Add_429), Add (Add_430), Sub (Sub_432), Add (Add_437), Mul (Mul_440), Add (Add_441), ]
+2021-02-23 01:50:34.228049028 [V:onnxruntime:, inference_session.cc:896 TransformGraph]  Provider: [CPUExecutionProvider]: [Unsqueeze (Unsqueeze_1), Unsqueeze (Unsqueeze_3), Cast (Cast_4), Sub (Sub_6), Mul (Mul_8), Gather (Gather_18), Gather (Gather_19), ReduceMean (ReduceMean_23), Pow (Pow_26), ReduceMean (ReduceMean_27), Sqrt (Sqrt_30), Div (Div_31), Reshape (Reshape_49), Reshape (Reshape_63), Transpose (Transpose_64), Reshape (Reshape_76), Transpose (Transpose_77), Transpose (Transpose_78), MatMul (MatMul_79), Div (Div_81), Add (Add_82), Softmax (Softmax_83), MatMul (MatMul_84), Transpose (Transpose_85), Reshape (Reshape_97), ReduceMean (ReduceMean_101), Pow (Pow_104), ReduceMean (ReduceMean_105), Sqrt (Sqrt_108), Div (Div_109), Div (Div_115), Erf (Erf_116), ReduceMean (ReduceMean_125), Pow (Pow_128), ReduceMean (ReduceMean_129), Sqrt (Sqrt_132), Div (Div_133), Reshape (Reshape_151), Reshape (Reshape_165), Transpose (Transpose_166), Reshape (Reshape_178), Transpose (Transpose_179), Transpose (Transpose_180), MatMul (MatMul_181), Div (Div_183), Add (Add_184), Softmax (Softmax_185), MatMul (MatMul_186), Transpose (Transpose_187), Reshape (Reshape_199), ReduceMean (ReduceMean_203), Pow (Pow_206), ReduceMean (ReduceMean_207), Sqrt (Sqrt_210), Div (Div_211), Div (Div_217), Erf (Erf_218), ReduceMean (ReduceMean_227), Pow (Pow_230), ReduceMean (ReduceMean_231), Sqrt (Sqrt_234), Div (Div_235), Reshape (Reshape_253), Reshape (Reshape_267), Transpose (Transpose_268), Reshape (Reshape_280), Transpose (Transpose_281), Transpose (Transpose_282), MatMul (MatMul_283), Div (Div_285), Add (Add_286), Softmax (Softmax_287), MatMul (MatMul_288), Transpose (Transpose_289), Reshape (Reshape_301), ReduceMean (ReduceMean_305), Pow (Pow_308), ReduceMean (ReduceMean_309), Sqrt (Sqrt_312), Div (Div_313), Div (Div_319), Erf (Erf_320), ReduceMean (ReduceMean_329), Pow (Pow_332), ReduceMean (ReduceMean_333), Sqrt (Sqrt_336), Div (Div_337), Reshape (Reshape_355), Reshape (Reshape_369), Transpose (Transpose_370), Reshape (Reshape_382), Transpose (Transpose_383), Transpose (Transpose_384), MatMul (MatMul_385), Div (Div_387), Add (Add_388), Softmax (Softmax_389), MatMul (MatMul_390), Transpose (Transpose_391), Reshape (Reshape_403), ReduceMean (ReduceMean_407), Pow (Pow_410), ReduceMean (ReduceMean_411), Sqrt (Sqrt_414), Div (Div_415), Div (Div_421), Erf (Erf_422), ReduceMean (ReduceMean_431), Pow (Pow_434), ReduceMean (ReduceMean_435), Sqrt (Sqrt_438), Div (Div_439), Gather (Gather_443), Gemm (Gemm_444), Tanh (Tanh_445), Gemm (Gemm_446), ]
+2021-02-23 01:50:34.298252370 [V:onnxruntime:, session_state.cc:76 CreateGraphInfo] SaveMLValueNameIndexMapping
+2021-02-23 01:50:34.299909796 [V:onnxruntime:, session_state.cc:122 CreateGraphInfo] Done saving OrtValue mappings.
+2021-02-23 01:50:34.309859066 [I:onnxruntime:, session_state_utils.cc:203 SaveInitializedTensors] Saving initialized tensors.
+2021-02-23 01:50:34.735627493 [I:onnxruntime:, session_state_utils.cc:333 SaveInitializedTensors] Done saving initialized tensors
+2021-02-23 01:50:34.759627253 [I:onnxruntime:, inference_session.cc:1271 Initialize] Session successfully initialized.
+2021-02-23 01:50:34.760410411 [I:onnxruntime:, sequential_executor.cc:159 Execute] Begin execution
+2021-02-23 01:50:35.646691963 [I:onnxruntime:, sequential_executor.cc:518 Execute] [Memory] ExecutionFrame dynamically allocates 1573376 bytes for CPU_PIM
+
+2021-02-23 01:50:35.646810915 [I:onnxruntime:, sequential_executor.cc:518 Execute] [Memory] ExecutionFrame dynamically allocates 2490880 bytes for Pim
+
+2021-02-23 01:50:35.646871125 [I:onnxruntime:, sequential_executor.cc:518 Execute] [Memory] ExecutionFrame dynamically allocates 6559488 bytes for Cpu
+
+2021-02-23 01:50:35.665809865 [I:onnxruntime:, profiler.cc:146 EndProfiling] Writing profiler data to file pim__2021-02-23_01-50-33.json
+2021-02-23 01:50:35.681206379 [V:onnxruntime:, inference_session.cc:1733 EndProfiling] Profiler is disabled.
+2021-02-23 01:50:36.921582402 [I:onnxruntime:, inference_session.cc:230 ConstructorCommon] Creating and using per session threadpools since use_per_session_threads_ is true
+2021-02-23 01:50:37.270857804 [I:onnxruntime:, inference_session.cc:1095 Initialize] Initializing session.
+2021-02-23 01:50:37.319930855 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '585'. It is no longer used by any node.
+2021-02-23 01:50:37.320041826 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '582'. It is no longer used by any node.
+2021-02-23 01:50:37.320101077 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '540'. It is no longer used by any node.
+2021-02-23 01:50:37.320157147 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '533'. It is no longer used by any node.
+2021-02-23 01:50:37.320211778 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '534'. It is no longer used by any node.
+2021-02-23 01:50:37.320268058 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '559'. It is no longer used by any node.
+2021-02-23 01:50:37.320322449 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '561'. It is no longer used by any node.
+2021-02-23 01:50:37.320376930 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '553'. It is no longer used by any node.
+2021-02-23 01:50:37.320431320 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '519'. It is no longer used by any node.
+2021-02-23 01:50:37.320486701 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '450'. It is no longer used by any node.
+2021-02-23 01:50:37.320574481 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '448'. It is no longer used by any node.
+2021-02-23 01:50:37.320630072 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '458'. It is no longer used by any node.
+2021-02-23 01:50:37.320684553 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '411'. It is no longer used by any node.
+2021-02-23 01:50:37.320738733 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '402'. It is no longer used by any node.
+2021-02-23 01:50:37.320792794 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '413'. It is no longer used by any node.
+2021-02-23 01:50:37.320847004 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '407'. It is no longer used by any node.
+2021-02-23 01:50:37.320900495 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '430'. It is no longer used by any node.
+2021-02-23 01:50:37.320955845 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '421'. It is no longer used by any node.
+2021-02-23 01:50:37.321010236 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '432'. It is no longer used by any node.
+2021-02-23 01:50:37.321063846 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '426'. It is no longer used by any node.
+2021-02-23 01:50:37.321117637 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '424'. It is no longer used by any node.
+2021-02-23 01:50:37.321171367 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '456'. It is no longer used by any node.
+2021-02-23 01:50:37.321225518 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '390'. It is no longer used by any node.
+2021-02-23 01:50:37.321279429 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '381'. It is no longer used by any node.
+2021-02-23 01:50:37.321333219 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '386'. It is no longer used by any node.
+2021-02-23 01:50:37.321387490 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '327'. It is no longer used by any node.
+2021-02-23 01:50:37.321441280 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '321'. It is no longer used by any node.
+2021-02-23 01:50:37.321495221 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '329'. It is no longer used by any node.
+2021-02-23 01:50:37.321549071 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '322'. It is no longer used by any node.
+2021-02-23 01:50:37.321603132 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '273'. It is no longer used by any node.
+2021-02-23 01:50:37.321657102 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '284'. It is no longer used by any node.
+2021-02-23 01:50:37.321711223 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '276'. It is no longer used by any node.
+2021-02-23 01:50:37.321765073 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '294'. It is no longer used by any node.
+2021-02-23 01:50:37.321822104 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '292'. It is no longer used by any node.
+2021-02-23 01:50:37.321876885 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '303'. It is no longer used by any node.
+2021-02-23 01:50:37.321931125 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '297'. It is no longer used by any node.
+2021-02-23 01:50:37.321984406 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '295'. It is no longer used by any node.
+2021-02-23 01:50:37.322038586 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '254'. It is no longer used by any node.
+2021-02-23 01:50:37.322109897 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '252'. It is no longer used by any node.
+2021-02-23 01:50:37.322164947 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '257'. It is no longer used by any node.
+2021-02-23 01:50:37.322218858 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '255'. It is no longer used by any node.
+2021-02-23 01:50:37.322272678 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '198'. It is no longer used by any node.
+2021-02-23 01:50:37.322326199 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '190'. It is no longer used by any node.
+2021-02-23 01:50:37.322379990 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '193'. It is no longer used by any node.
+2021-02-23 01:50:37.322434140 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '153'. It is no longer used by any node.
+2021-02-23 01:50:37.322488351 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '155'. It is no longer used by any node.
+2021-02-23 01:50:37.322541571 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '172'. It is no longer used by any node.
+2021-02-23 01:50:37.322594942 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '165'. It is no longer used by any node.
+2021-02-23 01:50:37.322648492 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '163'. It is no longer used by any node.
+2021-02-23 01:50:37.322702253 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '174'. It is no longer used by any node.
+2021-02-23 01:50:37.322755773 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '319'. It is no longer used by any node.
+2021-02-23 01:50:37.322809354 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '166'. It is no longer used by any node.
+2021-02-23 01:50:37.322862964 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '282'. It is no longer used by any node.
+2021-02-23 01:50:37.322916545 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '132'. It is no longer used by any node.
+2021-02-23 01:50:37.322970395 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '125'. It is no longer used by any node.
+2021-02-23 01:50:37.323024066 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '134'. It is no longer used by any node.
+2021-02-23 01:50:37.323077557 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '128'. It is no longer used by any node.
+2021-02-23 01:50:37.323131857 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '100'. It is no longer used by any node.
+2021-02-23 01:50:37.323185798 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '96'. It is no longer used by any node.
+2021-02-23 01:50:37.323239288 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '580'. It is no longer used by any node.
+2021-02-23 01:50:37.323293169 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '512'. It is no longer used by any node.
+2021-02-23 01:50:37.323347769 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '513'. It is no longer used by any node.
+2021-02-23 01:50:37.323402370 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '584'. It is no longer used by any node.
+2021-02-23 01:50:37.323456010 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '578'. It is no longer used by any node.
+2021-02-23 01:50:37.323509801 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '146'. It is no longer used by any node.
+2021-02-23 01:50:37.323596232 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '423'. It is no longer used by any node.
+2021-02-23 01:50:37.323669552 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '661'. It is no longer used by any node.
+2021-02-23 01:50:37.323726373 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '674'. It is no longer used by any node.
+2021-02-23 01:50:37.323780194 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '262'. It is no longer used by any node.
+2021-02-23 01:50:37.323834134 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '587'. It is no longer used by any node.
+2021-02-23 01:50:37.323887685 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '669'. It is no longer used by any node.
+2021-02-23 01:50:37.323942225 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '675'. It is no longer used by any node.
+2021-02-23 01:50:37.323995896 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '88'. It is no longer used by any node.
+2021-02-23 01:50:37.324049806 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '551'. It is no longer used by any node.
+2021-02-23 01:50:37.324104407 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '660'. It is no longer used by any node.
+2021-02-23 01:50:37.324159367 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '383'. It is no longer used by any node.
+2021-02-23 01:50:37.324214118 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '581'. It is no longer used by any node.
+2021-02-23 01:50:37.324267878 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '656'. It is no longer used by any node.
+2021-02-23 01:50:37.324321819 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '577'. It is no longer used by any node.
+2021-02-23 01:50:37.324375700 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '655'. It is no longer used by any node.
+2021-02-23 01:50:37.324431170 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '195'. It is no longer used by any node.
+2021-02-23 01:50:37.324485411 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '256'. It is no longer used by any node.
+2021-02-23 01:50:37.324539951 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '126'. It is no longer used by any node.
+2021-02-23 01:50:37.324594282 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '275'. It is no longer used by any node.
+2021-02-23 01:50:37.324648912 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '668'. It is no longer used by any node.
+2021-02-23 01:50:37.324702673 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '405'. It is no longer used by any node.
+2021-02-23 01:50:37.324756493 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '554'. It is no longer used by any node.
+2021-02-23 01:50:37.324810914 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '301'. It is no longer used by any node.
+2021-02-23 01:50:37.324865064 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '586'. It is no longer used by any node.
+2021-02-23 01:50:37.324919605 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '648'. It is no longer used by any node.
+2021-02-23 01:50:37.324973785 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '659'. It is no longer used by any node.
+2021-02-23 01:50:37.325027276 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '647'. It is no longer used by any node.
+2021-02-23 01:50:37.325080737 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '253'. It is no longer used by any node.
+2021-02-23 01:50:37.325151717 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '645'. It is no longer used by any node.
+2021-02-23 01:50:37.325206558 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '300'. It is no longer used by any node.
+2021-02-23 01:50:37.325260408 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '643'. It is no longer used by any node.
+2021-02-23 01:50:37.325315789 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '451'. It is no longer used by any node.
+2021-02-23 01:50:37.325370419 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '639'. It is no longer used by any node.
+2021-02-23 01:50:37.325424180 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '531'. It is no longer used by any node.
+2021-02-23 01:50:37.325478301 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '145'. It is no longer used by any node.
+2021-02-23 01:50:37.325532091 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '191'. It is no longer used by any node.
+2021-02-23 01:50:37.325590292 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '412'. It is no longer used by any node.
+2021-02-23 01:50:37.325647472 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '555'. It is no longer used by any node.
+2021-02-23 01:50:37.325701653 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '324'. It is no longer used by any node.
+2021-02-23 01:50:37.325755233 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '638'. It is no longer used by any node.
+2021-02-23 01:50:37.325809414 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '263'. It is no longer used by any node.
+2021-02-23 01:50:37.325863744 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '672'. It is no longer used by any node.
+2021-02-23 01:50:37.325917625 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '323'. It is no longer used by any node.
+2021-02-23 01:50:37.325973605 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '164'. It is no longer used by any node.
+2021-02-23 01:50:37.326028596 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '410'. It is no longer used by any node.
+2021-02-23 01:50:37.326082327 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '144'. It is no longer used by any node.
+2021-02-23 01:50:37.326137377 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer 'bert.embeddings.position_embeddings.weight'. It is no longer used by any node.
+2021-02-23 01:50:37.326194438 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '453'. It is no longer used by any node.
+2021-02-23 01:50:37.326250508 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '392'. It is no longer used by any node.
+2021-02-23 01:50:37.326305679 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '552'. It is no longer used by any node.
+2021-02-23 01:50:37.326359499 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '274'. It is no longer used by any node.
+2021-02-23 01:50:37.326414430 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '261'. It is no longer used by any node.
+2021-02-23 01:50:37.326468280 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '403'. It is no longer used by any node.
+2021-02-23 01:50:37.326525401 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '149'. It is no longer used by any node.
+2021-02-23 01:50:37.326579462 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '539'. It is no longer used by any node.
+2021-02-23 01:50:37.326634992 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer 'bert.embeddings.position_ids'. It is no longer used by any node.
+2021-02-23 01:50:37.326708673 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '671'. It is no longer used by any node.
+2021-02-23 01:50:37.326764263 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '688'. It is no longer used by any node.
+2021-02-23 01:50:37.326818984 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '302'. It is no longer used by any node.
+2021-02-23 01:50:37.326878205 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '382'. It is no longer used by any node.
+2021-02-23 01:50:37.326932775 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '542'. It is no longer used by any node.
+2021-02-23 01:50:37.326986566 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '449'. It is no longer used by any node.
+2021-02-23 01:50:37.327040146 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '681'. It is no longer used by any node.
+2021-02-23 01:50:37.327096187 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '579'. It is no longer used by any node.
+2021-02-23 01:50:37.327158287 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '89'. It is no longer used by any node.
+2021-02-23 01:50:37.327213608 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '662'. It is no longer used by any node.
+2021-02-23 01:50:37.327267908 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '642'. It is no longer used by any node.
+2021-02-23 01:50:37.327322869 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '431'. It is no longer used by any node.
+2021-02-23 01:50:37.327377620 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '154'. It is no longer used by any node.
+2021-02-23 01:50:37.327433210 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '384'. It is no longer used by any node.
+2021-02-23 01:50:37.327487091 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '673'. It is no longer used by any node.
+2021-02-23 01:50:37.327558611 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '147'. It is no longer used by any node.
+2021-02-23 01:50:37.327618462 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '86'. It is no longer used by any node.
+2021-02-23 01:50:37.327672912 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '293'. It is no longer used by any node.
+2021-02-23 01:50:37.327727663 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '520'. It is no longer used by any node.
+2021-02-23 01:50:37.327783524 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '521'. It is no longer used by any node.
+2021-02-23 01:50:37.327839234 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '684'. It is no longer used by any node.
+2021-02-23 01:50:37.327893445 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '686'. It is no longer used by any node.
+2021-02-23 01:50:37.327947055 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '168'. It is no longer used by any node.
+2021-02-23 01:50:37.328001686 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '328'. It is no longer used by any node.
+2021-02-23 01:50:37.328060696 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '326'. It is no longer used by any node.
+2021-02-23 01:50:37.328115477 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '550'. It is no longer used by any node.
+2021-02-23 01:50:37.328170317 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '87'. It is no longer used by any node.
+2021-02-23 01:50:37.328241178 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '173'. It is no longer used by any node.
+2021-02-23 01:50:37.328296529 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '192'. It is no longer used by any node.
+2021-02-23 01:50:37.328350979 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '658'. It is no longer used by any node.
+2021-02-23 01:50:37.328404590 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '99'. It is no longer used by any node.
+2021-02-23 01:50:37.328459850 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '124'. It is no longer used by any node.
+2021-02-23 01:50:37.328513821 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '127'. It is no longer used by any node.
+2021-02-23 01:50:37.328567911 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '385'. It is no longer used by any node.
+2021-02-23 01:50:37.328621432 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '131'. It is no longer used by any node.
+2021-02-23 01:50:37.328675312 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '148'. It is no longer used by any node.
+2021-02-23 01:50:37.328729673 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '320'. It is no longer used by any node.
+2021-02-23 01:50:37.328783524 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '133'. It is no longer used by any node.
+2021-02-23 01:50:37.328837104 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '152'. It is no longer used by any node.
+2021-02-23 01:50:37.328890625 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '167'. It is no longer used by any node.
+2021-02-23 01:50:37.328944295 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '685'. It is no longer used by any node.
+2021-02-23 01:50:37.328998296 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '171'. It is no longer used by any node.
+2021-02-23 01:50:37.329051936 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '404'. It is no longer used by any node.
+2021-02-23 01:50:37.329105727 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '194'. It is no longer used by any node.
+2021-02-23 01:50:37.329159247 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '123'. It is no longer used by any node.
+2021-02-23 01:50:37.329212918 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '429'. It is no longer used by any node.
+2021-02-23 01:50:37.329266678 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '197'. It is no longer used by any node.
+2021-02-23 01:50:37.329320439 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '199'. It is no longer used by any node.
+2021-02-23 01:50:37.329375279 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '95'. It is no longer used by any node.
+2021-02-23 01:50:37.329429550 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '425'. It is no longer used by any node.
+2021-02-23 01:50:37.329483881 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '511'. It is no longer used by any node.
+2021-02-23 01:50:37.329538751 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '649'. It is no longer used by any node.
+2021-02-23 01:50:37.329592512 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '260'. It is no longer used by any node.
+2021-02-23 01:50:37.329646122 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '277'. It is no longer used by any node.
+2021-02-23 01:50:37.329699733 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '281'. It is no longer used by any node.
+2021-02-23 01:50:37.329769573 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '646'. It is no longer used by any node.
+2021-02-23 01:50:37.329824084 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '283'. It is no longer used by any node.
+2021-02-23 01:50:37.329878175 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '90'. It is no longer used by any node.
+2021-02-23 01:50:37.329932085 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '682'. It is no longer used by any node.
+2021-02-23 01:50:37.329986566 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '296'. It is no longer used by any node.
+2021-02-23 01:50:37.330041676 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '535'. It is no longer used by any node.
+2021-02-23 01:50:37.330097027 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '200'. It is no longer used by any node.
+2021-02-23 01:50:37.330151027 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '389'. It is no longer used by any node.
+2021-02-23 01:50:37.330204428 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '536'. It is no longer used by any node.
+2021-02-23 01:50:37.330258248 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '278'. It is no longer used by any node.
+2021-02-23 01:50:37.330311889 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '391'. It is no longer used by any node.
+2021-02-23 01:50:37.330365679 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '510'. It is no longer used by any node.
+2021-02-23 01:50:37.330419860 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '406'. It is no longer used by any node.
+2021-02-23 01:50:37.330474460 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '687'. It is no longer used by any node.
+2021-02-23 01:50:37.330528221 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '422'. It is no longer used by any node.
+2021-02-23 01:50:37.330584202 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '452'. It is no longer used by any node.
+2021-02-23 01:50:37.330638412 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '455'. It is no longer used by any node.
+2021-02-23 01:50:37.330692503 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '560'. It is no longer used by any node.
+2021-02-23 01:50:37.330746113 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '457'. It is no longer used by any node.
+2021-02-23 01:50:37.330800804 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '515'. It is no longer used by any node.
+2021-02-23 01:50:37.330856334 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '541'. It is no longer used by any node.
+2021-02-23 01:50:37.330910665 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '514'. It is no longer used by any node.
+2021-02-23 01:50:37.330965415 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '518'. It is no longer used by any node.
+2021-02-23 01:50:37.331019116 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '532'. It is no longer used by any node.
+2021-02-23 01:50:37.331073536 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '558'. It is no longer used by any node.
+2021-02-23 01:50:37.345549971 [V:onnxruntime:, inference_session.cc:889 TransformGraph] Node placements
+2021-02-23 01:50:37.345642822 [V:onnxruntime:, inference_session.cc:896 TransformGraph]  Provider: [PIMExecutionProvider]: [Add (Add_22), Sub (Sub_24), Add (Add_29), Add (Add_33), Add (Add_35), Add (Add_37), Add (Add_51), MatMul (MatMul_98), Add (Add_100), Sub (Sub_102), Add (Add_107), Add (Add_111), Add (Add_113), ]
+2021-02-23 01:50:37.345863024 [V:onnxruntime:, inference_session.cc:896 TransformGraph]  Provider: [CPUExecutionProvider]: [Unsqueeze (Unsqueeze_1), Unsqueeze (Unsqueeze_3), Cast (Cast_4), Sub (Sub_6), Mul (Mul_8), Gather (Gather_18), Gather (Gather_19), Add (Add_20), ReduceMean (ReduceMean_23), Pow (Pow_26), ReduceMean (ReduceMean_27), Sqrt (Sqrt_30), Div (Div_31), Mul (Mul_32), MatMul (MatMul_34), MatMul (MatMul_36), Reshape (Reshape_49), MatMul (MatMul_50), Reshape (Reshape_63), Transpose (Transpose_64), Reshape (Reshape_76), Transpose (Transpose_77), Transpose (Transpose_78), MatMul (MatMul_79), Div (Div_81), Add (Add_82), Softmax (Softmax_83), MatMul (MatMul_84), Transpose (Transpose_85), Reshape (Reshape_97), Add (Add_99), ReduceMean (ReduceMean_101), Pow (Pow_104), ReduceMean (ReduceMean_105), Sqrt (Sqrt_108), Div (Div_109), Mul (Mul_110), MatMul (MatMul_112), Div (Div_115), Erf (Erf_116), Add (Add_118), Mul (Mul_119), Mul (Mul_121), MatMul (MatMul_122), Add (Add_123), Add (Add_124), ReduceMean (ReduceMean_125), Sub (Sub_126), Pow (Pow_128), ReduceMean (ReduceMean_129), Add (Add_131), Sqrt (Sqrt_132), Div (Div_133), Mul (Mul_134), Add (Add_135), MatMul (MatMul_136), Add (Add_137), MatMul (MatMul_138), Add (Add_139), Reshape (Reshape_151), MatMul (MatMul_152), Add (Add_153), Reshape (Reshape_165), Transpose (Transpose_166), Reshape (Reshape_178), Transpose (Transpose_179), Transpose (Transpose_180), MatMul (MatMul_181), Div (Div_183), Add (Add_184), Softmax (Softmax_185), MatMul (MatMul_186), Transpose (Transpose_187), Reshape (Reshape_199), MatMul (MatMul_200), Add (Add_201), Add (Add_202), ReduceMean (ReduceMean_203), Sub (Sub_204), Pow (Pow_206), ReduceMean (ReduceMean_207), Add (Add_209), Sqrt (Sqrt_210), Div (Div_211), Mul (Mul_212), Add (Add_213), MatMul (MatMul_214), Add (Add_215), Div (Div_217), Erf (Erf_218), Add (Add_220), Mul (Mul_221), Mul (Mul_223), MatMul (MatMul_224), Add (Add_225), Add (Add_226), ReduceMean (ReduceMean_227), Sub (Sub_228), Pow (Pow_230), ReduceMean (ReduceMean_231), Add (Add_233), Sqrt (Sqrt_234), Div (Div_235), Mul (Mul_236), Add (Add_237), MatMul (MatMul_238), Add (Add_239), MatMul (MatMul_240), Add (Add_241), Reshape (Reshape_253), MatMul (MatMul_254), Add (Add_255), Reshape (Reshape_267), Transpose (Transpose_268), Reshape (Reshape_280), Transpose (Transpose_281), Transpose (Transpose_282), MatMul (MatMul_283), Div (Div_285), Add (Add_286), Softmax (Softmax_287), MatMul (MatMul_288), Transpose (Transpose_289), Reshape (Reshape_301), MatMul (MatMul_302), Add (Add_303), Add (Add_304), ReduceMean (ReduceMean_305), Sub (Sub_306), Pow (Pow_308), ReduceMean (ReduceMean_309), Add (Add_311), Sqrt (Sqrt_312), Div (Div_313), Mul (Mul_314), Add (Add_315), MatMul (MatMul_316), Add (Add_317), Div (Div_319), Erf (Erf_320), Add (Add_322), Mul (Mul_323), Mul (Mul_325), MatMul (MatMul_326), Add (Add_327), Add (Add_328), ReduceMean (ReduceMean_329), Sub (Sub_330), Pow (Pow_332), ReduceMean (ReduceMean_333), Add (Add_335), Sqrt (Sqrt_336), Div (Div_337), Mul (Mul_338), Add (Add_339), MatMul (MatMul_340), Add (Add_341), MatMul (MatMul_342), Add (Add_343), Reshape (Reshape_355), MatMul (MatMul_356), Add (Add_357), Reshape (Reshape_369), Transpose (Transpose_370), Reshape (Reshape_382), Transpose (Transpose_383), Transpose (Transpose_384), MatMul (MatMul_385), Div (Div_387), Add (Add_388), Softmax (Softmax_389), MatMul (MatMul_390), Transpose (Transpose_391), Reshape (Reshape_403), MatMul (MatMul_404), Add (Add_405), Add (Add_406), ReduceMean (ReduceMean_407), Sub (Sub_408), Pow (Pow_410), ReduceMean (ReduceMean_411), Add (Add_413), Sqrt (Sqrt_414), Div (Div_415), Mul (Mul_416), Add (Add_417), MatMul (MatMul_418), Add (Add_419), Div (Div_421), Erf (Erf_422), Add (Add_424), Mul (Mul_425), Mul (Mul_427), MatMul (MatMul_428), Add (Add_429), Add (Add_430), ReduceMean (ReduceMean_431), Sub (Sub_432), Pow (Pow_434), ReduceMean (ReduceMean_435), Add (Add_437), Sqrt (Sqrt_438), Div (Div_439), Mul (Mul_440), Add (Add_441), Gather (Gather_443), Gemm (Gemm_444), Tanh (Tanh_445), Gemm (Gemm_446), ]
+2021-02-23 01:50:37.426204968 [V:onnxruntime:, session_state.cc:76 CreateGraphInfo] SaveMLValueNameIndexMapping
+2021-02-23 01:50:37.427576011 [V:onnxruntime:, session_state.cc:122 CreateGraphInfo] Done saving OrtValue mappings.
+2021-02-23 01:50:37.436563291 [I:onnxruntime:, session_state_utils.cc:203 SaveInitializedTensors] Saving initialized tensors.
+2021-02-23 01:50:37.599111817 [I:onnxruntime:, session_state_utils.cc:333 SaveInitializedTensors] Done saving initialized tensors
+2021-02-23 01:50:37.620098677 [I:onnxruntime:, inference_session.cc:1271 Initialize] Session successfully initialized.
+2021-02-23 01:50:37.620915645 [I:onnxruntime:, sequential_executor.cc:159 Execute] Begin execution
+2021-02-23 01:50:38.271306188 [I:onnxruntime:, sequential_executor.cc:518 Execute] [Memory] ExecutionFrame dynamically allocates 1573376 bytes for CPU_PIM
+
+2021-02-23 01:50:38.271425890 [I:onnxruntime:, sequential_executor.cc:518 Execute] [Memory] ExecutionFrame dynamically allocates 1442304 bytes for Pim
+
+2021-02-23 01:50:38.271485950 [I:onnxruntime:, sequential_executor.cc:518 Execute] [Memory] ExecutionFrame dynamically allocates 9181440 bytes for Cpu
+
+2021-02-23 01:50:38.275835214 [I:onnxruntime:, profiler.cc:146 EndProfiling] Writing profiler data to file edge__2021-02-23_01-50-36.json
+2021-02-23 01:50:38.288497890 [V:onnxruntime:, inference_session.cc:1733 EndProfiling] Profiler is disabled.
+2021-02-23 01:50:39.640844843 [I:onnxruntime:, inference_session.cc:230 ConstructorCommon] Creating and using per session threadpools since use_per_session_threads_ is true
+2021-02-23 01:50:39.980948014 [I:onnxruntime:, inference_session.cc:1095 Initialize] Initializing session.
+2021-02-23 01:50:40.030549040 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '585'. It is no longer used by any node.
+2021-02-23 01:50:40.030659081 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '582'. It is no longer used by any node.
+2021-02-23 01:50:40.030718992 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '540'. It is no longer used by any node.
+2021-02-23 01:50:40.030775512 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '533'. It is no longer used by any node.
+2021-02-23 01:50:40.030829513 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '534'. It is no longer used by any node.
+2021-02-23 01:50:40.030885643 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '559'. It is no longer used by any node.
+2021-02-23 01:50:40.030939944 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '561'. It is no longer used by any node.
+2021-02-23 01:50:40.030994155 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '553'. It is no longer used by any node.
+2021-02-23 01:50:40.031047885 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '519'. It is no longer used by any node.
+2021-02-23 01:50:40.031103356 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '450'. It is no longer used by any node.
+2021-02-23 01:50:40.031156936 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '448'. It is no longer used by any node.
+2021-02-23 01:50:40.031210937 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '458'. It is no longer used by any node.
+2021-02-23 01:50:40.031265207 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '411'. It is no longer used by any node.
+2021-02-23 01:50:40.031319508 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '402'. It is no longer used by any node.
+2021-02-23 01:50:40.031373628 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '413'. It is no longer used by any node.
+2021-02-23 01:50:40.031427659 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '407'. It is no longer used by any node.
+2021-02-23 01:50:40.031515530 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '430'. It is no longer used by any node.
+2021-02-23 01:50:40.031599231 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '421'. It is no longer used by any node.
+2021-02-23 01:50:40.031655511 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '432'. It is no longer used by any node.
+2021-02-23 01:50:40.031709692 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '426'. It is no longer used by any node.
+2021-02-23 01:50:40.031764052 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '424'. It is no longer used by any node.
+2021-02-23 01:50:40.031818143 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '456'. It is no longer used by any node.
+2021-02-23 01:50:40.031872323 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '390'. It is no longer used by any node.
+2021-02-23 01:50:40.031926624 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '381'. It is no longer used by any node.
+2021-02-23 01:50:40.031980864 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '386'. It is no longer used by any node.
+2021-02-23 01:50:40.032035135 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '327'. It is no longer used by any node.
+2021-02-23 01:50:40.032089015 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '321'. It is no longer used by any node.
+2021-02-23 01:50:40.032142956 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '329'. It is no longer used by any node.
+2021-02-23 01:50:40.032196927 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '322'. It is no longer used by any node.
+2021-02-23 01:50:40.032251257 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '273'. It is no longer used by any node.
+2021-02-23 01:50:40.032305138 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '284'. It is no longer used by any node.
+2021-02-23 01:50:40.032359528 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '276'. It is no longer used by any node.
+2021-02-23 01:50:40.032413529 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '294'. It is no longer used by any node.
+2021-02-23 01:50:40.032470949 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '292'. It is no longer used by any node.
+2021-02-23 01:50:40.032525640 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '303'. It is no longer used by any node.
+2021-02-23 01:50:40.032579430 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '297'. It is no longer used by any node.
+2021-02-23 01:50:40.032633401 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '295'. It is no longer used by any node.
+2021-02-23 01:50:40.032687911 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '254'. It is no longer used by any node.
+2021-02-23 01:50:40.032741372 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '252'. It is no longer used by any node.
+2021-02-23 01:50:40.032795073 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '257'. It is no longer used by any node.
+2021-02-23 01:50:40.032848503 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '255'. It is no longer used by any node.
+2021-02-23 01:50:40.032902444 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '198'. It is no longer used by any node.
+2021-02-23 01:50:40.032956204 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '190'. It is no longer used by any node.
+2021-02-23 01:50:40.033009815 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '193'. It is no longer used by any node.
+2021-02-23 01:50:40.033089255 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '153'. It is no longer used by any node.
+2021-02-23 01:50:40.033144606 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '155'. It is no longer used by any node.
+2021-02-23 01:50:40.033198457 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '172'. It is no longer used by any node.
+2021-02-23 01:50:40.033252607 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '165'. It is no longer used by any node.
+2021-02-23 01:50:40.033306698 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '163'. It is no longer used by any node.
+2021-02-23 01:50:40.033360638 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '174'. It is no longer used by any node.
+2021-02-23 01:50:40.033414279 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '319'. It is no longer used by any node.
+2021-02-23 01:50:40.033467679 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '166'. It is no longer used by any node.
+2021-02-23 01:50:40.033522040 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '282'. It is no longer used by any node.
+2021-02-23 01:50:40.033575860 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '132'. It is no longer used by any node.
+2021-02-23 01:50:40.033630011 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '125'. It is no longer used by any node.
+2021-02-23 01:50:40.033684011 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '134'. It is no longer used by any node.
+2021-02-23 01:50:40.033737772 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '128'. It is no longer used by any node.
+2021-02-23 01:50:40.033792253 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '100'. It is no longer used by any node.
+2021-02-23 01:50:40.033846223 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '96'. It is no longer used by any node.
+2021-02-23 01:50:40.033900614 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '580'. It is no longer used by any node.
+2021-02-23 01:50:40.033954014 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '512'. It is no longer used by any node.
+2021-02-23 01:50:40.034008225 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '513'. It is no longer used by any node.
+2021-02-23 01:50:40.034062795 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '584'. It is no longer used by any node.
+2021-02-23 01:50:40.034116436 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '578'. It is no longer used by any node.
+2021-02-23 01:50:40.034169776 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '146'. It is no longer used by any node.
+2021-02-23 01:50:40.034230347 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '423'. It is no longer used by any node.
+2021-02-23 01:50:40.034285547 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '661'. It is no longer used by any node.
+2021-02-23 01:50:40.034340838 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '674'. It is no longer used by any node.
+2021-02-23 01:50:40.034395079 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '262'. It is no longer used by any node.
+2021-02-23 01:50:40.034449019 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '587'. It is no longer used by any node.
+2021-02-23 01:50:40.034503140 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '669'. It is no longer used by any node.
+2021-02-23 01:50:40.034557530 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '675'. It is no longer used by any node.
+2021-02-23 01:50:40.034628181 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '88'. It is no longer used by any node.
+2021-02-23 01:50:40.034683771 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '551'. It is no longer used by any node.
+2021-02-23 01:50:40.034739002 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '660'. It is no longer used by any node.
+2021-02-23 01:50:40.034793813 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '383'. It is no longer used by any node.
+2021-02-23 01:50:40.034848113 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '581'. It is no longer used by any node.
+2021-02-23 01:50:40.034901874 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '656'. It is no longer used by any node.
+2021-02-23 01:50:40.034955454 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '577'. It is no longer used by any node.
+2021-02-23 01:50:40.035009215 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '655'. It is no longer used by any node.
+2021-02-23 01:50:40.035064505 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '195'. It is no longer used by any node.
+2021-02-23 01:50:40.035118566 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '256'. It is no longer used by any node.
+2021-02-23 01:50:40.035172236 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '126'. It is no longer used by any node.
+2021-02-23 01:50:40.035227197 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '275'. It is no longer used by any node.
+2021-02-23 01:50:40.035282337 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '668'. It is no longer used by any node.
+2021-02-23 01:50:40.035336578 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '405'. It is no longer used by any node.
+2021-02-23 01:50:40.035390518 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '554'. It is no longer used by any node.
+2021-02-23 01:50:40.035444489 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '301'. It is no longer used by any node.
+2021-02-23 01:50:40.035498250 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '586'. It is no longer used by any node.
+2021-02-23 01:50:40.035574240 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '648'. It is no longer used by any node.
+2021-02-23 01:50:40.035629651 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '659'. It is no longer used by any node.
+2021-02-23 01:50:40.035683891 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '647'. It is no longer used by any node.
+2021-02-23 01:50:40.035737652 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '253'. It is no longer used by any node.
+2021-02-23 01:50:40.035792013 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '645'. It is no longer used by any node.
+2021-02-23 01:50:40.035845653 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '300'. It is no longer used by any node.
+2021-02-23 01:50:40.035899354 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '643'. It is no longer used by any node.
+2021-02-23 01:50:40.035954944 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '451'. It is no longer used by any node.
+2021-02-23 01:50:40.036009875 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '639'. It is no longer used by any node.
+2021-02-23 01:50:40.036063425 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '531'. It is no longer used by any node.
+2021-02-23 01:50:40.036134226 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '145'. It is no longer used by any node.
+2021-02-23 01:50:40.036189216 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '191'. It is no longer used by any node.
+2021-02-23 01:50:40.036248077 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '412'. It is no longer used by any node.
+2021-02-23 01:50:40.036305168 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '555'. It is no longer used by any node.
+2021-02-23 01:50:40.036359678 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '324'. It is no longer used by any node.
+2021-02-23 01:50:40.036413529 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '638'. It is no longer used by any node.
+2021-02-23 01:50:40.036467499 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '263'. It is no longer used by any node.
+2021-02-23 01:50:40.036521530 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '672'. It is no longer used by any node.
+2021-02-23 01:50:40.036575500 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '323'. It is no longer used by any node.
+2021-02-23 01:50:40.036631091 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '164'. It is no longer used by any node.
+2021-02-23 01:50:40.036686771 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '410'. It is no longer used by any node.
+2021-02-23 01:50:40.036740412 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '144'. It is no longer used by any node.
+2021-02-23 01:50:40.036795553 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer 'bert.embeddings.position_embeddings.weight'. It is no longer used by any node.
+2021-02-23 01:50:40.036853723 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '453'. It is no longer used by any node.
+2021-02-23 01:50:40.036909584 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '392'. It is no longer used by any node.
+2021-02-23 01:50:40.036965354 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '552'. It is no longer used by any node.
+2021-02-23 01:50:40.037019595 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '274'. It is no longer used by any node.
+2021-02-23 01:50:40.037074675 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '261'. It is no longer used by any node.
+2021-02-23 01:50:40.037128376 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '403'. It is no longer used by any node.
+2021-02-23 01:50:40.037185586 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '149'. It is no longer used by any node.
+2021-02-23 01:50:40.037239467 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '539'. It is no longer used by any node.
+2021-02-23 01:50:40.037295088 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer 'bert.embeddings.position_ids'. It is no longer used by any node.
+2021-02-23 01:50:40.037351458 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '671'. It is no longer used by any node.
+2021-02-23 01:50:40.037405819 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '688'. It is no longer used by any node.
+2021-02-23 01:50:40.037459909 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '302'. It is no longer used by any node.
+2021-02-23 01:50:40.037519280 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '382'. It is no longer used by any node.
+2021-02-23 01:50:40.037573610 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '542'. It is no longer used by any node.
+2021-02-23 01:50:40.037659231 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '449'. It is no longer used by any node.
+2021-02-23 01:50:40.037714612 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '681'. It is no longer used by any node.
+2021-02-23 01:50:40.037770832 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '579'. It is no longer used by any node.
+2021-02-23 01:50:40.037831613 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '89'. It is no longer used by any node.
+2021-02-23 01:50:40.037886663 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '662'. It is no longer used by any node.
+2021-02-23 01:50:40.037940874 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '642'. It is no longer used by any node.
+2021-02-23 01:50:40.037995805 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '431'. It is no longer used by any node.
+2021-02-23 01:50:40.038050825 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '154'. It is no longer used by any node.
+2021-02-23 01:50:40.038106776 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '384'. It is no longer used by any node.
+2021-02-23 01:50:40.038160986 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '673'. It is no longer used by any node.
+2021-02-23 01:50:40.038214777 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '147'. It is no longer used by any node.
+2021-02-23 01:50:40.038268777 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '86'. It is no longer used by any node.
+2021-02-23 01:50:40.038322418 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '293'. It is no longer used by any node.
+2021-02-23 01:50:40.038377348 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '520'. It is no longer used by any node.
+2021-02-23 01:50:40.038432999 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '521'. It is no longer used by any node.
+2021-02-23 01:50:40.038489219 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '684'. It is no longer used by any node.
+2021-02-23 01:50:40.038543430 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '686'. It is no longer used by any node.
+2021-02-23 01:50:40.038597281 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '168'. It is no longer used by any node.
+2021-02-23 01:50:40.038651761 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '328'. It is no longer used by any node.
+2021-02-23 01:50:40.038709242 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '326'. It is no longer used by any node.
+2021-02-23 01:50:40.038764622 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '550'. It is no longer used by any node.
+2021-02-23 01:50:40.038819163 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '87'. It is no longer used by any node.
+2021-02-23 01:50:40.038873283 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '173'. It is no longer used by any node.
+2021-02-23 01:50:40.038927134 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '192'. It is no longer used by any node.
+2021-02-23 01:50:40.038981524 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '658'. It is no longer used by any node.
+2021-02-23 01:50:40.039035045 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '99'. It is no longer used by any node.
+2021-02-23 01:50:40.039090455 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '124'. It is no longer used by any node.
+2021-02-23 01:50:40.039143856 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '127'. It is no longer used by any node.
+2021-02-23 01:50:40.039214837 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '385'. It is no longer used by any node.
+2021-02-23 01:50:40.039270127 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '131'. It is no longer used by any node.
+2021-02-23 01:50:40.039324578 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '148'. It is no longer used by any node.
+2021-02-23 01:50:40.039379478 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '320'. It is no longer used by any node.
+2021-02-23 01:50:40.039433179 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '133'. It is no longer used by any node.
+2021-02-23 01:50:40.039487419 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '152'. It is no longer used by any node.
+2021-02-23 01:50:40.039558820 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '167'. It is no longer used by any node.
+2021-02-23 01:50:40.039618821 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '685'. It is no longer used by any node.
+2021-02-23 01:50:40.039673301 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '171'. It is no longer used by any node.
+2021-02-23 01:50:40.039727062 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '404'. It is no longer used by any node.
+2021-02-23 01:50:40.039780822 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '194'. It is no longer used by any node.
+2021-02-23 01:50:40.039834583 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '123'. It is no longer used by any node.
+2021-02-23 01:50:40.039888163 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '429'. It is no longer used by any node.
+2021-02-23 01:50:40.039941534 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '197'. It is no longer used by any node.
+2021-02-23 01:50:40.039995325 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '199'. It is no longer used by any node.
+2021-02-23 01:50:40.040050165 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '95'. It is no longer used by any node.
+2021-02-23 01:50:40.040104436 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '425'. It is no longer used by any node.
+2021-02-23 01:50:40.040158916 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '511'. It is no longer used by any node.
+2021-02-23 01:50:40.040213487 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '649'. It is no longer used by any node.
+2021-02-23 01:50:40.040267667 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '260'. It is no longer used by any node.
+2021-02-23 01:50:40.040321428 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '277'. It is no longer used by any node.
+2021-02-23 01:50:40.040374648 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '281'. It is no longer used by any node.
+2021-02-23 01:50:40.040428199 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '646'. It is no longer used by any node.
+2021-02-23 01:50:40.040481779 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '283'. It is no longer used by any node.
+2021-02-23 01:50:40.040535720 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '90'. It is no longer used by any node.
+2021-02-23 01:50:40.040589600 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '682'. It is no longer used by any node.
+2021-02-23 01:50:40.040644081 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '296'. It is no longer used by any node.
+2021-02-23 01:50:40.040699102 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '535'. It is no longer used by any node.
+2021-02-23 01:50:40.040770202 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '200'. It is no longer used by any node.
+2021-02-23 01:50:40.040825163 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '389'. It is no longer used by any node.
+2021-02-23 01:50:40.040878983 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '536'. It is no longer used by any node.
+2021-02-23 01:50:40.040932264 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '278'. It is no longer used by any node.
+2021-02-23 01:50:40.040985934 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '391'. It is no longer used by any node.
+2021-02-23 01:50:40.041040205 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '510'. It is no longer used by any node.
+2021-02-23 01:50:40.041094836 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '406'. It is no longer used by any node.
+2021-02-23 01:50:40.041149916 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '687'. It is no longer used by any node.
+2021-02-23 01:50:40.041203857 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '422'. It is no longer used by any node.
+2021-02-23 01:50:40.041260047 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '452'. It is no longer used by any node.
+2021-02-23 01:50:40.041314198 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '455'. It is no longer used by any node.
+2021-02-23 01:50:40.041368408 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '560'. It is no longer used by any node.
+2021-02-23 01:50:40.041422499 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '457'. It is no longer used by any node.
+2021-02-23 01:50:40.041476889 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '515'. It is no longer used by any node.
+2021-02-23 01:50:40.041532030 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '541'. It is no longer used by any node.
+2021-02-23 01:50:40.041587020 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '514'. It is no longer used by any node.
+2021-02-23 01:50:40.041641591 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '518'. It is no longer used by any node.
+2021-02-23 01:50:40.041695142 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '532'. It is no longer used by any node.
+2021-02-23 01:50:40.041748902 [I:onnxruntime:, graph.cc:3096 CleanUnusedInitializers] Removing initializer '558'. It is no longer used by any node.
+2021-02-23 01:50:40.056412419 [V:onnxruntime:, inference_session.cc:889 TransformGraph] Node placements
+2021-02-23 01:50:40.056545680 [V:onnxruntime:, inference_session.cc:896 TransformGraph]  Provider: [PIMExecutionProvider]: [Mul (Mul_32), Add (Add_33), MatMul (MatMul_34), Add (Add_35), MatMul (MatMul_36), Add (Add_37), MatMul (MatMul_50), Add (Add_51), MatMul (MatMul_98), Add (Add_99), Add (Add_100), Mul (Mul_110), Add (Add_111), MatMul (MatMul_112), Add (Add_113), MatMul (MatMul_122), Add (Add_123), Add (Add_124), Mul (Mul_134), Add (Add_135), MatMul (MatMul_136), Add (Add_137), MatMul (MatMul_138), Add (Add_139), MatMul (MatMul_152), Add (Add_153), MatMul (MatMul_200), Add (Add_201), Add (Add_202), Mul (Mul_212), Add (Add_213), MatMul (MatMul_214), Add (Add_215), MatMul (MatMul_224), Add (Add_225), Add (Add_226), Mul (Mul_236), Add (Add_237), MatMul (MatMul_238), Add (Add_239), MatMul (MatMul_240), Add (Add_241), MatMul (MatMul_254), Add (Add_255), MatMul (MatMul_302), Add (Add_303), Add (Add_304), Mul (Mul_314), Add (Add_315), MatMul (MatMul_316), Add (Add_317), MatMul (MatMul_326), Add (Add_327), Add (Add_328), Mul (Mul_338), Add (Add_339), MatMul (MatMul_340), Add (Add_341), MatMul (MatMul_342), Add (Add_343), MatMul (MatMul_356), Add (Add_357), MatMul (MatMul_404), Add (Add_405), Add (Add_406), Mul (Mul_416), Add (Add_417), MatMul (MatMul_418), Add (Add_419), MatMul (MatMul_428), Add (Add_429), Add (Add_430), ]
+2021-02-23 01:50:40.056739662 [V:onnxruntime:, inference_session.cc:896 TransformGraph]  Provider: [CPUExecutionProvider]: [Unsqueeze (Unsqueeze_1), Unsqueeze (Unsqueeze_3), Cast (Cast_4), Sub (Sub_6), Mul (Mul_8), Gather (Gather_18), Gather (Gather_19), Add (Add_20), Add (Add_22), ReduceMean (ReduceMean_23), Sub (Sub_24), Pow (Pow_26), ReduceMean (ReduceMean_27), Add (Add_29), Sqrt (Sqrt_30), Div (Div_31), Reshape (Reshape_49), Reshape (Reshape_63), Transpose (Transpose_64), Reshape (Reshape_76), Transpose (Transpose_77), Transpose (Transpose_78), MatMul (MatMul_79), Div (Div_81), Add (Add_82), Softmax (Softmax_83), MatMul (MatMul_84), Transpose (Transpose_85), Reshape (Reshape_97), ReduceMean (ReduceMean_101), Sub (Sub_102), Pow (Pow_104), ReduceMean (ReduceMean_105), Add (Add_107), Sqrt (Sqrt_108), Div (Div_109), Div (Div_115), Erf (Erf_116), Add (Add_118), Mul (Mul_119), Mul (Mul_121), ReduceMean (ReduceMean_125), Sub (Sub_126), Pow (Pow_128), ReduceMean (ReduceMean_129), Add (Add_131), Sqrt (Sqrt_132), Div (Div_133), Reshape (Reshape_151), Reshape (Reshape_165), Transpose (Transpose_166), Reshape (Reshape_178), Transpose (Transpose_179), Transpose (Transpose_180), MatMul (MatMul_181), Div (Div_183), Add (Add_184), Softmax (Softmax_185), MatMul (MatMul_186), Transpose (Transpose_187), Reshape (Reshape_199), ReduceMean (ReduceMean_203), Sub (Sub_204), Pow (Pow_206), ReduceMean (ReduceMean_207), Add (Add_209), Sqrt (Sqrt_210), Div (Div_211), Div (Div_217), Erf (Erf_218), Add (Add_220), Mul (Mul_221), Mul (Mul_223), ReduceMean (ReduceMean_227), Sub (Sub_228), Pow (Pow_230), ReduceMean (ReduceMean_231), Add (Add_233), Sqrt (Sqrt_234), Div (Div_235), Reshape (Reshape_253), Reshape (Reshape_267), Transpose (Transpose_268), Reshape (Reshape_280), Transpose (Transpose_281), Transpose (Transpose_282), MatMul (MatMul_283), Div (Div_285), Add (Add_286), Softmax (Softmax_287), MatMul (MatMul_288), Transpose (Transpose_289), Reshape (Reshape_301), ReduceMean (ReduceMean_305), Sub (Sub_306), Pow (Pow_308), ReduceMean (ReduceMean_309), Add (Add_311), Sqrt (Sqrt_312), Div (Div_313), Div (Div_319), Erf (Erf_320), Add (Add_322), Mul (Mul_323), Mul (Mul_325), ReduceMean (ReduceMean_329), Sub (Sub_330), Pow (Pow_332), ReduceMean (ReduceMean_333), Add (Add_335), Sqrt (Sqrt_336), Div (Div_337), Reshape (Reshape_355), Reshape (Reshape_369), Transpose (Transpose_370), Reshape (Reshape_382), Transpose (Transpose_383), Transpose (Transpose_384), MatMul (MatMul_385), Div (Div_387), Add (Add_388), Softmax (Softmax_389), MatMul (MatMul_390), Transpose (Transpose_391), Reshape (Reshape_403), ReduceMean (ReduceMean_407), Sub (Sub_408), Pow (Pow_410), ReduceMean (ReduceMean_411), Add (Add_413), Sqrt (Sqrt_414), Div (Div_415), Div (Div_421), Erf (Erf_422), Add (Add_424), Mul (Mul_425), Mul (Mul_427), ReduceMean (ReduceMean_431), Sub (Sub_432), Pow (Pow_434), ReduceMean (ReduceMean_435), Add (Add_437), Sqrt (Sqrt_438), Div (Div_439), Mul (Mul_440), Add (Add_441), Gather (Gather_443), Gemm (Gemm_444), Tanh (Tanh_445), Gemm (Gemm_446), ]
+2021-02-23 01:50:40.127097446 [V:onnxruntime:, session_state.cc:76 CreateGraphInfo] SaveMLValueNameIndexMapping
+2021-02-23 01:50:40.128524770 [V:onnxruntime:, session_state.cc:122 CreateGraphInfo] Done saving OrtValue mappings.
+2021-02-23 01:50:40.137626411 [I:onnxruntime:, session_state_utils.cc:203 SaveInitializedTensors] Saving initialized tensors.
+2021-02-23 01:50:40.533348968 [I:onnxruntime:, session_state_utils.cc:333 SaveInitializedTensors] Done saving initialized tensors
+2021-02-23 01:50:40.553716712 [I:onnxruntime:, inference_session.cc:1271 Initialize] Session successfully initialized.
+2021-02-23 01:50:40.554521200 [I:onnxruntime:, sequential_executor.cc:159 Execute] Begin execution
+2021-02-23 01:50:41.385346747 [I:onnxruntime:, sequential_executor.cc:518 Execute] [Memory] ExecutionFrame dynamically allocates 1310720 bytes for CPU_PIM
+
+2021-02-23 01:50:41.385498399 [I:onnxruntime:, sequential_executor.cc:518 Execute] [Memory] ExecutionFrame dynamically allocates 1966080 bytes for Pim
+
+2021-02-23 01:50:41.385558820 [I:onnxruntime:, sequential_executor.cc:518 Execute] [Memory] ExecutionFrame dynamically allocates 7346432 bytes for Cpu
+
+2021-02-23 01:50:41.404610780 [I:onnxruntime:, profiler.cc:146 EndProfiling] Writing profiler data to file opt__2021-02-23_01-50-39.json
+2021-02-23 01:50:41.417966734 [V:onnxruntime:, inference_session.cc:1733 EndProfiling] Profiler is disabled.
+Arguments Namespace(basic_optimization=True, batch_size=1, dummy_inputs='default', global_length=1, input_ids_name=None, input_mask_name=None, kernel_time_only=True, model='../../onnx_models/bert/bert-small-sequence-class-inferred-128.onnx', past_sequence_length=1, samples=1, segment_ids_name=None, sequence_length=128, thread_num=4, threshold=0, use_pim=True, verbose=False)
+RUNNING CPU
+check result
+[[0.11924031 0.35871315]]
+loading profile output cpu__2021-02-23_01-50-31.json ...
+RUNNING PIM
+check result
+[[nan nan]]
+loading profile output pim__2021-02-23_01-50-33.json ...
+RUNNING EDGE
+check result
+[[nan nan]]
+loading profile output edge__2021-02-23_01-50-36.json ...
+f_opt:  497394.0
+ALS time:  0.005212545394897461
+DNN PARTITION
+{'CPUExecutionProvider': [339, 338, 337, 336, 335, 334, 333, 332, 331, 330, 329, 328, 327, 323, 322, 321, 320, 319, 314, 313, 312, 311, 310, 309, 308, 304, 296, 295, 294, 293, 292, 291, 290, 289, 288, 280, 279, 269, 255, 254, 253, 252, 251, 250, 249, 245, 244, 243, 242, 241, 236, 235, 234, 233, 232, 231, 230, 226, 218, 217, 216, 215, 214, 213, 212, 211, 210, 202, 201, 191, 177, 176, 175, 174, 173, 172, 171, 167, 166, 165, 164, 163, 158, 157, 156, 155, 154, 153, 152, 148, 140, 139, 138, 137, 136, 135, 134, 133, 132, 124, 123, 113, 99, 98, 97, 96, 95, 94, 93, 89, 88, 87, 86, 85, 80, 79, 78, 77, 76, 75, 74, 70, 62, 61, 60, 59, 58, 57, 56, 55, 54, 46, 45, 35, 21, 20, 19, 18, 17, 16, 15, 14, 12, 11, 10, 4, 3, 2, 1, 0], 'PIMExecutionProvider': [326, 325, 324, 318, 317, 316, 315, 307, 306, 305, 271, 270, 261, 260, 259, 258, 257, 256, 248, 247, 246, 240, 239, 238, 237, 229, 228, 227, 193, 192, 183, 182, 181, 180, 179, 178, 170, 169, 168, 162, 161, 160, 159, 151, 150, 149, 115, 114, 105, 104, 103, 102, 101, 100, 92, 91, 90, 84, 83, 82, 81, 73, 72, 71, 37, 36, 27, 26, 25, 24, 23, 22]}
+RUNNING OPT
+check result
+[[0.0763721  0.08849431]]
+loading profile output opt__2021-02-23_01-50-39.json ...
+Results:
+----------------------------------------------------------------
+CPU PROFILE RESULT
+
+================================================================
+Duration	Percentage	Provider	Name
+38076	 6.53	CPU	MatMul_428_kernel_time
+37940	 6.50	CPU	MatMul_122_kernel_time
+37914	 6.50	CPU	MatMul_326_kernel_time
+36908	 6.33	CPU	MatMul_224_kernel_time
+34200	 5.86	CPU	MatMul_418_kernel_time
+34115	 5.85	CPU	MatMul_112_kernel_time
+32480	 5.57	CPU	MatMul_316_kernel_time
+32365	 5.55	CPU	MatMul_214_kernel_time
+22324	 3.83	CPU	Erf_116_kernel_time
+22312	 3.82	CPU	Erf_218_kernel_time
+22308	 3.82	CPU	Erf_320_kernel_time
+22304	 3.82	CPU	Erf_422_kernel_time
+8271	 1.42	CPU	MatMul_342_kernel_time
+8127	 1.39	CPU	MatMul_254_kernel_time
+8025	 1.38	CPU	MatMul_50_kernel_time
+8024	 1.38	CPU	MatMul_138_kernel_time
+7955	 1.36	CPU	MatMul_98_kernel_time
+7954	 1.36	CPU	MatMul_200_kernel_time
+7940	 1.36	CPU	MatMul_238_kernel_time
+7845	 1.34	CPU	MatMul_152_kernel_time
+7844	 1.34	CPU	MatMul_36_kernel_time
+7814	 1.34	CPU	MatMul_240_kernel_time
+7789	 1.34	CPU	MatMul_404_kernel_time
+7777	 1.33	CPU	MatMul_356_kernel_time
+7746	 1.33	CPU	MatMul_302_kernel_time
+7713	 1.32	CPU	MatMul_34_kernel_time
+7686	 1.32	CPU	MatMul_136_kernel_time
+7675	 1.32	CPU	MatMul_340_kernel_time
+2559	 0.44	CPU	MatMul_79_kernel_time
+2535	 0.43	CPU	MatMul_283_kernel_time
+2509	 0.43	CPU	MatMul_385_kernel_time
+2456	 0.42	CPU	MatMul_181_kernel_time
+2329	 0.40	CPU	MatMul_288_kernel_time
+2318	 0.40	CPU	MatMul_84_kernel_time
+2194	 0.38	CPU	MatMul_390_kernel_time
+2161	 0.37	CPU	MatMul_186_kernel_time
+1679	 0.29	CPU	Transpose_282_kernel_time
+1616	 0.28	CPU	Transpose_384_kernel_time
+1514	 0.26	CPU	Transpose_180_kernel_time
+1437	 0.25	CPU	Transpose_78_kernel_time
+1131	 0.19	CPU	Softmax_83_kernel_time
+1130	 0.19	CPU	Softmax_185_kernel_time
+1114	 0.19	CPU	Softmax_389_kernel_time
+1097	 0.19	CPU	Softmax_287_kernel_time
+1089	 0.19	CPU	Gemm_444_kernel_time
+823	 0.14	CPU	Mul_425_kernel_time
+802	 0.14	CPU	Mul_221_kernel_time
+762	 0.13	CPU	Mul_323_kernel_time
+759	 0.13	CPU	Mul_119_kernel_time
+588	 0.10	CPU	Add_419_kernel_time
+576	 0.10	CPU	Add_215_kernel_time
+543	 0.09	CPU	Add_113_kernel_time
+539	 0.09	CPU	Div_319_kernel_time
+528	 0.09	CPU	Div_235_kernel_time
+527	 0.09	CPU	Div_217_kernel_time
+526	 0.09	CPU	Div_337_kernel_time
+524	 0.09	CPU	Div_133_kernel_time
+523	 0.09	CPU	Div_421_kernel_time
+522	 0.09	CPU	Div_439_kernel_time
+521	 0.09	CPU	Div_31_kernel_time
+517	 0.09	CPU	Div_415_kernel_time
+516	 0.09	CPU	Div_109_kernel_time
+516	 0.09	CPU	Add_322_kernel_time
+515	 0.09	CPU	Add_317_kernel_time
+514	 0.09	CPU	Div_313_kernel_time
+513	 0.09	CPU	Div_115_kernel_time
+510	 0.09	CPU	Add_118_kernel_time
+509	 0.09	CPU	Div_211_kernel_time
+503	 0.09	CPU	Mul_325_kernel_time
+502	 0.09	CPU	Mul_121_kernel_time
+487	 0.08	CPU	ReduceMean_23_kernel_time
+469	 0.08	CPU	Add_430_kernel_time
+466	 0.08	CPU	ReduceMean_129_kernel_time
+461	 0.08	CPU	Add_226_kernel_time
+452	 0.08	CPU	Add_20_kernel_time
+446	 0.08	CPU	ReduceMean_309_kernel_time
+444	 0.08	CPU	ReduceMean_105_kernel_time
+444	 0.08	CPU	ReduceMean_329_kernel_time
+444	 0.08	CPU	ReduceMean_431_kernel_time
+443	 0.08	CPU	ReduceMean_227_kernel_time
+442	 0.08	CPU	ReduceMean_101_kernel_time
+442	 0.08	CPU	ReduceMean_125_kernel_time
+441	 0.08	CPU	ReduceMean_203_kernel_time
+440	 0.08	CPU	ReduceMean_305_kernel_time
+440	 0.08	CPU	ReduceMean_407_kernel_time
+434	 0.07	CPU	ReduceMean_333_kernel_time
+433	 0.07	CPU	ReduceMean_411_kernel_time
+432	 0.07	CPU	ReduceMean_207_kernel_time
+432	 0.07	CPU	ReduceMean_435_kernel_time
+431	 0.07	CPU	ReduceMean_27_kernel_time
+431	 0.07	CPU	ReduceMean_231_kernel_time
+430	 0.07	CPU	Add_22_kernel_time
+430	 0.07	CPU	Add_328_kernel_time
+426	 0.07	CPU	Add_124_kernel_time
+425	 0.07	CPU	Add_220_kernel_time
+425	 0.07	CPU	Add_424_kernel_time
+414	 0.07	CPU	Mul_427_kernel_time
+413	 0.07	CPU	Add_202_kernel_time
+413	 0.07	CPU	Mul_223_kernel_time
+410	 0.07	CPU	Add_304_kernel_time
+408	 0.07	CPU	Add_99_kernel_time
+405	 0.07	CPU	Add_406_kernel_time
+402	 0.07	CPU	Add_100_kernel_time
+390	 0.07	CPU	Add_429_kernel_time
+385	 0.07	CPU	Add_417_kernel_time
+384	 0.07	CPU	Add_137_kernel_time
+381	 0.07	CPU	Add_315_kernel_time
+381	 0.07	CPU	Add_327_kernel_time
+377	 0.06	CPU	Add_225_kernel_time
+376	 0.06	CPU	Add_123_kernel_time
+374	 0.06	CPU	Add_213_kernel_time
+373	 0.06	CPU	Mul_32_kernel_time
+370	 0.06	CPU	Add_51_kernel_time
+368	 0.06	CPU	Add_239_kernel_time
+366	 0.06	CPU	Add_139_kernel_time
+365	 0.06	CPU	Add_255_kernel_time
+362	 0.06	CPU	Add_111_kernel_time
+359	 0.06	CPU	Add_37_kernel_time
+359	 0.06	CPU	Add_201_kernel_time
+358	 0.06	CPU	Add_33_kernel_time
+356	 0.06	CPU	Add_303_kernel_time
+354	 0.06	CPU	Add_35_kernel_time
+354	 0.06	CPU	Add_153_kernel_time
+353	 0.06	CPU	Add_405_kernel_time
+352	 0.06	CPU	Add_341_kernel_time
+351	 0.06	CPU	Add_237_kernel_time
+350	 0.06	CPU	Add_241_kernel_time
+350	 0.06	CPU	Add_357_kernel_time
+349	 0.06	CPU	Add_343_kernel_time
+347	 0.06	CPU	Add_135_kernel_time
+346	 0.06	CPU	Add_441_kernel_time
+344	 0.06	CPU	Add_339_kernel_time
+341	 0.06	CPU	Mul_212_kernel_time
+341	 0.06	CPU	Mul_440_kernel_time
+340	 0.06	CPU	Mul_236_kernel_time
+340	 0.06	CPU	Mul_314_kernel_time
+340	 0.06	CPU	Mul_338_kernel_time
+339	 0.06	CPU	Mul_416_kernel_time
+338	 0.06	CPU	Mul_134_kernel_time
+337	 0.06	CPU	Mul_110_kernel_time
+299	 0.05	CPU	Sub_306_kernel_time
+288	 0.05	CPU	Div_285_kernel_time
+286	 0.05	CPU	Div_81_kernel_time
+282	 0.05	CPU	Div_387_kernel_time
+281	 0.05	CPU	Add_82_kernel_time
+281	 0.05	CPU	Pow_206_kernel_time
+279	 0.05	CPU	Div_183_kernel_time
+279	 0.05	CPU	Add_388_kernel_time
+279	 0.05	CPU	Sub_432_kernel_time
+278	 0.05	CPU	Add_286_kernel_time
+277	 0.05	CPU	Add_184_kernel_time
+277	 0.05	CPU	Pow_332_kernel_time
+273	 0.05	CPU	Pow_434_kernel_time
+270	 0.05	CPU	Sub_24_kernel_time
+269	 0.05	CPU	Sub_330_kernel_time
+268	 0.05	CPU	Sub_126_kernel_time
+266	 0.05	CPU	Sub_228_kernel_time
+265	 0.05	CPU	Pow_230_kernel_time
+264	 0.05	CPU	Pow_104_kernel_time
+263	 0.05	CPU	Sub_102_kernel_time
+263	 0.05	CPU	Pow_128_kernel_time
+263	 0.05	CPU	Sub_204_kernel_time
+263	 0.05	CPU	Pow_308_kernel_time
+263	 0.05	CPU	Pow_410_kernel_time
+262	 0.04	CPU	Sub_408_kernel_time
+258	 0.04	CPU	Pow_26_kernel_time
+248	 0.04	CPU	Transpose_77_kernel_time
+228	 0.04	CPU	Transpose_281_kernel_time
+222	 0.04	CPU	Transpose_268_kernel_time
+220	 0.04	CPU	Transpose_64_kernel_time
+209	 0.04	CPU	Gather_19_kernel_time
+206	 0.04	CPU	Transpose_383_kernel_time
+175	 0.03	CPU	Transpose_187_kernel_time
+170	 0.03	CPU	Transpose_391_kernel_time
+168	 0.03	CPU	Transpose_370_kernel_time
+166	 0.03	CPU	Transpose_85_kernel_time
+166	 0.03	CPU	Transpose_179_kernel_time
+166	 0.03	CPU	Transpose_166_kernel_time
+166	 0.03	CPU	Transpose_289_kernel_time
+92	 0.02	CPU	Add_413_kernel_time
+86	 0.01	CPU	Gather_18_kernel_time
+62	 0.01	CPU	Cast_4_kernel_time
+61	 0.01	CPU	Add_131_kernel_time
+60	 0.01	CPU	Add_29_kernel_time
+60	 0.01	CPU	Add_209_kernel_time
+60	 0.01	CPU	Add_311_kernel_time
+59	 0.01	CPU	Add_107_kernel_time
+59	 0.01	CPU	Add_233_kernel_time
+58	 0.01	CPU	Add_335_kernel_time
+58	 0.01	CPU	Add_437_kernel_time
+55	 0.01	CPU	Gemm_446_kernel_time
+52	 0.01	CPU	Tanh_445_kernel_time
+37	 0.01	CPU	Gather_443_kernel_time
+32	 0.01	CPU	Reshape_355_kernel_time
+31	 0.01	CPU	Reshape_49_kernel_time
+31	 0.01	CPU	Unsqueeze_1_kernel_time
+31	 0.01	CPU	Reshape_151_kernel_time
+30	 0.01	CPU	Reshape_280_kernel_time
+29	 0.00	CPU	Reshape_76_kernel_time
+29	 0.00	CPU	Sub_6_kernel_time
+29	 0.00	CPU	Reshape_267_kernel_time
+28	 0.00	CPU	Reshape_63_kernel_time
+28	 0.00	CPU	Reshape_178_kernel_time
+28	 0.00	CPU	Reshape_301_kernel_time
+27	 0.00	CPU	Mul_8_kernel_time
+27	 0.00	CPU	Reshape_403_kernel_time
+26	 0.00	CPU	Reshape_97_kernel_time
+26	 0.00	CPU	Reshape_199_kernel_time
+26	 0.00	CPU	Reshape_382_kernel_time
+26	 0.00	CPU	Reshape_369_kernel_time
+26	 0.00	CPU	Sqrt_414_kernel_time
+25	 0.00	CPU	Reshape_165_kernel_time
+25	 0.00	CPU	Reshape_253_kernel_time
+24	 0.00	CPU	Sqrt_30_kernel_time
+24	 0.00	CPU	Sqrt_108_kernel_time
+24	 0.00	CPU	Sqrt_132_kernel_time
+24	 0.00	CPU	Sqrt_210_kernel_time
+24	 0.00	CPU	Sqrt_234_kernel_time
+24	 0.00	CPU	Sqrt_312_kernel_time
+24	 0.00	CPU	Sqrt_336_kernel_time
+24	 0.00	CPU	Sqrt_438_kernel_time
+23	 0.00	CPU	Unsqueeze_3_kernel_time
+----------------------------------------------------------------
+Duration	Percentage	Calls	Cpu_Duration	Cpu_Calls	Name
+429244	73.59	32	429244	32	MatMul
+89248	15.30	4	89248	4	Erf
+20647	 3.54	60	20647	60	Add
+8547	 1.47	16	8547	16	Transpose
+8094	 1.39	18	8094	18	Mul
+7972	 1.37	18	7972	18	ReduceMean
+7914	 1.36	17	7914	17	Div
+4472	 0.77	4	4472	4	Softmax
+2468	 0.42	10	2468	10	Sub
+2407	 0.41	9	2407	9	Pow
+1144	 0.20	2	1144	2	Gemm
+447	 0.08	16	447	16	Reshape
+332	 0.06	3	332	3	Gather
+218	 0.04	9	218	9	Sqrt
+62	 0.01	1	62	1	Cast
+54	 0.01	2	54	2	Unsqueeze
+52	 0.01	1	52	1	Tanh
+PIM PROFILE RESULT
+
+================================================================
+Duration	Percentage	Provider	Name
+23116	 4.45	PIM	MatMul_418_kernel_time
+23113	 4.45	PIM	MatMul_316_kernel_time
+23104	 4.45	PIM	MatMul_112_kernel_time
+23101	 4.45	PIM	MatMul_214_kernel_time
+22740	 4.38	PIM	MatMul_428_kernel_time
+22736	 4.38	PIM	MatMul_326_kernel_time
+22728	 4.38	PIM	MatMul_224_kernel_time
+22718	 4.38	PIM	MatMul_122_kernel_time
+22374	 4.31	CPU	Erf_320_kernel_time
+22370	 4.31	CPU	Erf_116_kernel_time
+22332	 4.30	CPU	Erf_422_kernel_time
+22324	 4.30	CPU	Erf_218_kernel_time
+6023	 1.16	PIM	MatMul_138_kernel_time
+5819	 1.12	PIM	MatMul_136_kernel_time
+5818	 1.12	PIM	MatMul_152_kernel_time
+5817	 1.12	PIM	MatMul_238_kernel_time
+5817	 1.12	PIM	MatMul_340_kernel_time
+5809	 1.12	PIM	MatMul_240_kernel_time
+5808	 1.12	PIM	MatMul_356_kernel_time
+5807	 1.12	PIM	MatMul_342_kernel_time
+5805	 1.12	PIM	MatMul_254_kernel_time
+5804	 1.12	PIM	MatMul_50_kernel_time
+5804	 1.12	PIM	MatMul_98_kernel_time
+5802	 1.12	PIM	MatMul_36_kernel_time
+5800	 1.12	PIM	MatMul_34_kernel_time
+5796	 1.12	PIM	MatMul_404_kernel_time
+5791	 1.12	PIM	MatMul_302_kernel_time
+5785	 1.11	PIM	MatMul_200_kernel_time
+4643	 0.89	PIM	Memcpy_token_45_kernel_time
+4631	 0.89	PIM	Memcpy_token_55_kernel_time
+4622	 0.89	PIM	Memcpy_token_65_kernel_time
+4439	 0.86	PIM	Memcpy_token_75_kernel_time
+3151	 0.61	CPU	Gather_19_kernel_time
+2602	 0.50	CPU	MatMul_283_kernel_time
+2596	 0.50	CPU	MatMul_385_kernel_time
+2533	 0.49	CPU	MatMul_79_kernel_time
+2506	 0.48	CPU	MatMul_181_kernel_time
+2443	 0.47	PIM	Memcpy_token_24_kernel_time
+2441	 0.47	PIM	Memcpy_token_8_kernel_time
+2438	 0.47	PIM	Memcpy_token_16_kernel_time
+2429	 0.47	PIM	Memcpy_token_32_kernel_time
+2315	 0.45	CPU	MatMul_84_kernel_time
+2267	 0.44	CPU	MatMul_288_kernel_time
+2174	 0.42	CPU	MatMul_186_kernel_time
+2151	 0.41	CPU	MatMul_390_kernel_time
+1612	 0.31	CPU	Transpose_282_kernel_time
+1606	 0.31	CPU	Transpose_180_kernel_time
+1605	 0.31	CPU	Transpose_78_kernel_time
+1598	 0.31	CPU	Transpose_384_kernel_time
+1194	 0.23	PIM	Memcpy_token_61_kernel_time
+1191	 0.23	PIM	Memcpy_token_71_kernel_time
+1188	 0.23	PIM	Memcpy_token_42_kernel_time
+1182	 0.23	PIM	Memcpy_token_49_kernel_time
+1182	 0.23	PIM	Memcpy_token_79_kernel_time
+1180	 0.23	PIM	Memcpy_token_51_kernel_time
+1179	 0.23	PIM	Memcpy_token_69_kernel_time
+1178	 0.23	PIM	Memcpy_token_40_kernel_time
+1178	 0.23	PIM	Memcpy_token_39_kernel_time
+1178	 0.23	PIM	Memcpy_token_60_kernel_time
+1178	 0.23	PIM	Memcpy_token_70_kernel_time
+1177	 0.23	PIM	Memcpy_token_41_kernel_time
+1177	 0.23	PIM	Memcpy_token_62_kernel_time
+1176	 0.23	PIM	Memcpy_token_50_kernel_time
+1175	 0.23	PIM	Memcpy_token_73_kernel_time
+1174	 0.23	PIM	Memcpy_token_66_kernel_time
+1174	 0.23	PIM	Memcpy_token_76_kernel_time
+1172	 0.23	PIM	Memcpy_token_37_kernel_time
+1171	 0.23	PIM	Memcpy_token_52_kernel_time
+1170	 0.23	PIM	Memcpy_token_36_kernel_time
+1170	 0.23	PIM	Memcpy_token_53_kernel_time
+1170	 0.23	CPU	Gemm_444_kernel_time
+1169	 0.23	PIM	Memcpy_token_77_kernel_time
+1168	 0.23	PIM	Memcpy_token_56_kernel_time
+1165	 0.22	PIM	Memcpy_token_43_kernel_time
+1165	 0.22	PIM	Memcpy_token_63_kernel_time
+1165	 0.22	PIM	Memcpy_token_67_kernel_time
+1164	 0.22	PIM	Memcpy_token_46_kernel_time
+1164	 0.22	PIM	Memcpy_token_47_kernel_time
+1164	 0.22	PIM	Memcpy_token_57_kernel_time
+1164	 0.22	PIM	Memcpy_token_72_kernel_time
+1135	 0.22	PIM	Memcpy_token_59_kernel_time
+1112	 0.21	CPU	Softmax_83_kernel_time
+1112	 0.21	CPU	Softmax_389_kernel_time
+1103	 0.21	CPU	Softmax_287_kernel_time
+1101	 0.21	CPU	Softmax_185_kernel_time
+716	 0.14	PIM	Mul_325_kernel_time
+711	 0.14	PIM	Mul_121_kernel_time
+711	 0.14	PIM	Mul_223_kernel_time
+704	 0.14	PIM	Mul_427_kernel_time
+701	 0.14	PIM	Mul_425_kernel_time
+700	 0.13	PIM	Mul_119_kernel_time
+698	 0.13	PIM	Mul_221_kernel_time
+693	 0.13	PIM	Mul_323_kernel_time
+668	 0.13	PIM	Memcpy_token_0_kernel_time
+657	 0.13	PIM	Memcpy_token_12_kernel_time
+657	 0.13	PIM	Memcpy_token_20_kernel_time
+649	 0.13	PIM	Memcpy_token_28_kernel_time
+646	 0.12	PIM	Memcpy_kernel_time
+635	 0.12	PIM	Memcpy_token_4_kernel_time
+632	 0.12	PIM	Memcpy_token_7_kernel_time
+616	 0.12	PIM	Memcpy_token_3_kernel_time
+610	 0.12	PIM	Memcpy_token_11_kernel_time
+610	 0.12	PIM	Memcpy_token_23_kernel_time
+608	 0.12	PIM	Memcpy_token_19_kernel_time
+607	 0.12	PIM	Memcpy_token_27_kernel_time
+605	 0.12	PIM	Memcpy_token_15_kernel_time
+604	 0.12	PIM	Memcpy_token_31_kernel_time
+599	 0.12	PIM	Memcpy_token_35_kernel_time
+547	 0.11	CPU	Div_115_kernel_time
+546	 0.11	CPU	Div_211_kernel_time
+546	 0.11	CPU	Div_313_kernel_time
+545	 0.11	PIM	Add_118_kernel_time
+542	 0.10	CPU	Div_415_kernel_time
+540	 0.10	CPU	Div_319_kernel_time
+539	 0.10	CPU	Div_217_kernel_time
+534	 0.10	CPU	Div_31_kernel_time
+533	 0.10	CPU	Div_421_kernel_time
+523	 0.10	CPU	Div_133_kernel_time
+522	 0.10	CPU	Div_109_kernel_time
+522	 0.10	CPU	Div_235_kernel_time
+519	 0.10	CPU	Div_337_kernel_time
+519	 0.10	CPU	Div_439_kernel_time
+495	 0.10	CPU	ReduceMean_231_kernel_time
+480	 0.09	PIM	Add_424_kernel_time
+477	 0.09	CPU	ReduceMean_411_kernel_time
+474	 0.09	CPU	Add_82_kernel_time
+471	 0.09	CPU	ReduceMean_125_kernel_time
+469	 0.09	CPU	ReduceMean_227_kernel_time
+467	 0.09	PIM	Add_220_kernel_time
+463	 0.09	CPU	ReduceMean_129_kernel_time
+462	 0.09	PIM	Add_322_kernel_time
+457	 0.09	PIM	Add_113_kernel_time
+457	 0.09	PIM	Add_215_kernel_time
+457	 0.09	PIM	Add_317_kernel_time
+457	 0.09	PIM	Add_419_kernel_time
+448	 0.09	CPU	ReduceMean_23_kernel_time
+448	 0.09	CPU	ReduceMean_329_kernel_time
+448	 0.09	CPU	ReduceMean_431_kernel_time
+447	 0.09	CPU	ReduceMean_101_kernel_time
+447	 0.09	CPU	Add_286_kernel_time
+445	 0.09	CPU	ReduceMean_203_kernel_time
+445	 0.09	CPU	ReduceMean_305_kernel_time
+443	 0.09	CPU	Add_388_kernel_time
+442	 0.09	CPU	Add_184_kernel_time
+442	 0.09	CPU	ReduceMean_407_kernel_time
+437	 0.08	CPU	ReduceMean_105_kernel_time
+437	 0.08	CPU	ReduceMean_207_kernel_time
+437	 0.08	CPU	ReduceMean_309_kernel_time
+437	 0.08	CPU	ReduceMean_333_kernel_time
+437	 0.08	CPU	ReduceMean_435_kernel_time
+434	 0.08	CPU	ReduceMean_27_kernel_time
+333	 0.06	CPU	Div_81_kernel_time
+330	 0.06	CPU	Div_285_kernel_time
+304	 0.06	CPU	Div_387_kernel_time
+297	 0.06	CPU	Div_183_kernel_time
+291	 0.06	CPU	Pow_332_kernel_time
+269	 0.05	CPU	Pow_434_kernel_time
+268	 0.05	CPU	Pow_26_kernel_time
+268	 0.05	CPU	Pow_308_kernel_time
+267	 0.05	CPU	Pow_230_kernel_time
+267	 0.05	CPU	Transpose_281_kernel_time
+267	 0.05	CPU	Pow_410_kernel_time
+266	 0.05	CPU	Pow_206_kernel_time
+265	 0.05	CPU	Pow_104_kernel_time
+265	 0.05	CPU	Pow_128_kernel_time
+255	 0.05	PIM	Add_22_kernel_time
+250	 0.05	CPU	Transpose_77_kernel_time
+249	 0.05	PIM	Add_20_kernel_time
+246	 0.05	CPU	Transpose_268_kernel_time
+234	 0.05	CPU	Transpose_64_kernel_time
+210	 0.04	PIM	Add_29_kernel_time
+203	 0.04	PIM	Add_413_kernel_time
+202	 0.04	PIM	Add_209_kernel_time
+202	 0.04	PIM	Add_311_kernel_time
+201	 0.04	PIM	Add_233_kernel_time
+200	 0.04	PIM	Add_131_kernel_time
+200	 0.04	PIM	Add_202_kernel_time
+200	 0.04	PIM	Add_335_kernel_time
+198	 0.04	PIM	Add_437_kernel_time
+197	 0.04	PIM	Add_107_kernel_time
+196	 0.04	PIM	Sub_306_kernel_time
+195	 0.04	PIM	Sub_204_kernel_time
+194	 0.04	PIM	Sub_24_kernel_time
+194	 0.04	PIM	Sub_102_kernel_time
+193	 0.04	PIM	Sub_228_kernel_time
+193	 0.04	PIM	Sub_408_kernel_time
+193	 0.04	PIM	Sub_432_kernel_time
+192	 0.04	PIM	Sub_126_kernel_time
+191	 0.04	PIM	Sub_330_kernel_time
+189	 0.04	PIM	Add_100_kernel_time
+189	 0.04	PIM	Add_304_kernel_time
+189	 0.04	CPU	Transpose_370_kernel_time
+189	 0.04	PIM	Add_406_kernel_time
+189	 0.04	PIM	Add_430_kernel_time
+188	 0.04	PIM	Add_124_kernel_time
+188	 0.04	PIM	Add_226_kernel_time
+188	 0.04	PIM	Add_328_kernel_time
+186	 0.04	CPU	Transpose_166_kernel_time
+179	 0.03	CPU	Transpose_85_kernel_time
+166	 0.03	CPU	Transpose_289_kernel_time
+165	 0.03	PIM	Add_33_kernel_time
+165	 0.03	CPU	Transpose_383_kernel_time
+160	 0.03	CPU	Transpose_179_kernel_time
+153	 0.03	PIM	Add_339_kernel_time
+152	 0.03	PIM	Add_237_kernel_time
+150	 0.03	PIM	Add_135_kernel_time
+147	 0.03	CPU	Transpose_187_kernel_time
+145	 0.03	CPU	Transpose_391_kernel_time
+136	 0.03	PIM	Mul_416_kernel_time
+136	 0.03	PIM	Mul_440_kernel_time
+135	 0.03	PIM	Mul_32_kernel_time
+135	 0.03	PIM	Mul_110_kernel_time
+135	 0.03	PIM	Mul_134_kernel_time
+135	 0.03	PIM	Mul_212_kernel_time
+135	 0.03	PIM	Mul_314_kernel_time
+134	 0.03	PIM	Mul_236_kernel_time
+134	 0.03	PIM	Mul_338_kernel_time
+133	 0.03	PIM	Add_315_kernel_time
+133	 0.03	PIM	Add_417_kernel_time
+133	 0.03	PIM	Add_441_kernel_time
+132	 0.03	PIM	Add_51_kernel_time
+132	 0.03	PIM	Add_99_kernel_time
+132	 0.03	PIM	Add_111_kernel_time
+132	 0.03	PIM	Add_153_kernel_time
+132	 0.03	PIM	Add_239_kernel_time
+132	 0.03	PIM	Add_255_kernel_time
+132	 0.03	PIM	Add_405_kernel_time
+132	 0.03	PIM	Add_429_kernel_time
+131	 0.03	PIM	Add_35_kernel_time
+131	 0.03	PIM	Add_137_kernel_time
+131	 0.03	PIM	Add_213_kernel_time
+131	 0.03	PIM	Add_225_kernel_time
+131	 0.03	PIM	Add_241_kernel_time
+131	 0.03	PIM	Add_303_kernel_time
+131	 0.03	PIM	Add_341_kernel_time
+130	 0.03	PIM	Add_37_kernel_time
+130	 0.03	PIM	Add_123_kernel_time
+130	 0.03	PIM	Add_139_kernel_time
+130	 0.03	PIM	Add_327_kernel_time
+130	 0.03	PIM	Add_343_kernel_time
+129	 0.02	PIM	Add_357_kernel_time
+128	 0.02	PIM	Add_201_kernel_time
+70	 0.01	CPU	Gather_18_kernel_time
+55	 0.01	CPU	Tanh_445_kernel_time
+54	 0.01	CPU	Gemm_446_kernel_time
+47	 0.01	CPU	Gather_443_kernel_time
+40	 0.01	PIM	Memcpy_token_10_kernel_time
+37	 0.01	PIM	Memcpy_token_9_kernel_time
+36	 0.01	PIM	Memcpy_token_25_kernel_time
+36	 0.01	PIM	Memcpy_token_33_kernel_time
+36	 0.01	PIM	Memcpy_token_34_kernel_time
+33	 0.01	PIM	Memcpy_token_29_kernel_time
+32	 0.01	PIM	Memcpy_token_38_kernel_time
+31	 0.01	CPU	Unsqueeze_1_kernel_time
+31	 0.01	CPU	Cast_4_kernel_time
+31	 0.01	CPU	Sqrt_108_kernel_time
+31	 0.01	PIM	Memcpy_token_58_kernel_time
+31	 0.01	CPU	Reshape_280_kernel_time
+31	 0.01	PIM	Memcpy_token_64_kernel_time
+31	 0.01	PIM	Memcpy_token_26_kernel_time
+31	 0.01	PIM	Memcpy_token_68_kernel_time
+31	 0.01	PIM	Memcpy_token_74_kernel_time
+31	 0.01	PIM	Memcpy_token_78_kernel_time
+30	 0.01	PIM	Memcpy_token_48_kernel_time
+30	 0.01	PIM	Memcpy_token_54_kernel_time
+30	 0.01	PIM	Memcpy_token_30_kernel_time
+29	 0.01	PIM	Memcpy_token_5_kernel_time
+29	 0.01	PIM	Memcpy_token_44_kernel_time
+29	 0.01	CPU	Reshape_165_kernel_time
+29	 0.01	PIM	Memcpy_token_21_kernel_time
+29	 0.01	PIM	Memcpy_token_22_kernel_time
+28	 0.01	PIM	Memcpy_token_1_kernel_time
+28	 0.01	PIM	Memcpy_token_2_kernel_time
+28	 0.01	CPU	Reshape_49_kernel_time
+28	 0.01	CPU	Sub_6_kernel_time
+28	 0.01	PIM	Memcpy_token_6_kernel_time
+28	 0.01	PIM	Memcpy_token_13_kernel_time
+28	 0.01	PIM	Memcpy_token_14_kernel_time
+28	 0.01	PIM	Memcpy_token_17_kernel_time
+28	 0.01	PIM	Memcpy_token_18_kernel_time
+28	 0.01	CPU	Reshape_355_kernel_time
+27	 0.01	CPU	Sqrt_30_kernel_time
+27	 0.01	CPU	Reshape_76_kernel_time
+27	 0.01	CPU	Reshape_151_kernel_time
+27	 0.01	CPU	Sqrt_234_kernel_time
+27	 0.01	CPU	Reshape_253_kernel_time
+27	 0.01	CPU	Reshape_267_kernel_time
+27	 0.01	CPU	Reshape_301_kernel_time
+27	 0.01	CPU	Reshape_382_kernel_time
+27	 0.01	CPU	Reshape_369_kernel_time
+27	 0.01	CPU	Reshape_403_kernel_time
+26	 0.01	CPU	Mul_8_kernel_time
+26	 0.01	CPU	Reshape_63_kernel_time
+26	 0.01	CPU	Sqrt_132_kernel_time
+26	 0.01	CPU	Reshape_178_kernel_time
+26	 0.01	CPU	Sqrt_210_kernel_time
+26	 0.01	CPU	Sqrt_312_kernel_time
+26	 0.01	CPU	Sqrt_336_kernel_time
+26	 0.01	CPU	Sqrt_414_kernel_time
+26	 0.01	CPU	Sqrt_438_kernel_time
+25	 0.00	CPU	Reshape_97_kernel_time
+25	 0.00	CPU	Reshape_199_kernel_time
+23	 0.00	CPU	Unsqueeze_3_kernel_time
+----------------------------------------------------------------
+Duration	Percentage	Calls	Cpu_Duration	Cpu_Calls	Name
+295605	56.97	32	19144	8	MatMul
+89400	17.23	4	89400	4	Erf
+54978	10.60	44	0	0	MemcpyToHost
+19716	 3.80	37	0	0	MemcpyFromHost
+13324	 2.57	60	1806	4	Add
+8755	 1.69	16	8755	16	Transpose
+8196	 1.58	17	8196	17	Div
+8117	 1.56	18	8117	18	ReduceMean
+6875	 1.32	18	26	1	Mul
+4428	 0.85	4	4428	4	Softmax
+3268	 0.63	3	3268	3	Gather
+2426	 0.47	9	2426	9	Pow
+1769	 0.34	10	28	1	Sub
+1224	 0.24	2	1224	2	Gemm
+434	 0.08	16	434	16	Reshape
+241	 0.05	9	241	9	Sqrt
+55	 0.01	1	55	1	Tanh
+54	 0.01	2	54	2	Unsqueeze
+31	 0.01	1	31	1	Cast
+OPT PROFILE RESULT
+
+================================================================
+Duration	Percentage	Provider	Name
+23229	 4.66	PIM	MatMul_316_kernel_time
+23229	 4.66	PIM	MatMul_418_kernel_time
+23218	 4.65	PIM	MatMul_214_kernel_time
+22843	 4.58	PIM	MatMul_326_kernel_time
+22841	 4.58	PIM	MatMul_428_kernel_time
+22840	 4.58	PIM	MatMul_224_kernel_time
+22766	 4.56	PIM	MatMul_112_kernel_time
+22405	 4.49	PIM	MatMul_122_kernel_time
+22385	 4.49	CPU	Erf_116_kernel_time
+22381	 4.49	CPU	Erf_320_kernel_time
+22380	 4.49	CPU	Erf_218_kernel_time
+22377	 4.48	CPU	Erf_422_kernel_time
+5847	 1.17	PIM	MatMul_152_kernel_time
+5844	 1.17	PIM	MatMul_254_kernel_time
+5834	 1.17	PIM	MatMul_238_kernel_time
+5833	 1.17	PIM	MatMul_356_kernel_time
+5830	 1.17	PIM	MatMul_404_kernel_time
+5829	 1.17	PIM	MatMul_240_kernel_time
+5826	 1.17	PIM	MatMul_342_kernel_time
+5823	 1.17	PIM	MatMul_136_kernel_time
+5820	 1.17	PIM	MatMul_200_kernel_time
+5820	 1.17	PIM	MatMul_340_kernel_time
+5818	 1.17	PIM	MatMul_302_kernel_time
+5739	 1.15	PIM	MatMul_50_kernel_time
+5712	 1.14	PIM	MatMul_34_kernel_time
+5711	 1.14	PIM	MatMul_98_kernel_time
+5706	 1.14	PIM	MatMul_138_kernel_time
+5686	 1.14	PIM	MatMul_36_kernel_time
+4596	 0.92	PIM	Memcpy_token_37_kernel_time
+4555	 0.91	PIM	Memcpy_token_19_kernel_time
+4537	 0.91	PIM	Memcpy_token_31_kernel_time
+4471	 0.90	PIM	Memcpy_token_25_kernel_time
+2569	 0.51	CPU	MatMul_79_kernel_time
+2552	 0.51	CPU	MatMul_283_kernel_time
+2550	 0.51	CPU	MatMul_181_kernel_time
+2537	 0.51	CPU	MatMul_385_kernel_time
+2431	 0.49	PIM	Memcpy_token_6_kernel_time
+2426	 0.49	PIM	Memcpy_token_10_kernel_time
+2426	 0.49	PIM	Memcpy_token_14_kernel_time
+2424	 0.49	PIM	Memcpy_token_2_kernel_time
+2365	 0.47	CPU	MatMul_186_kernel_time
+2356	 0.47	CPU	MatMul_390_kernel_time
+2334	 0.47	CPU	MatMul_84_kernel_time
+2326	 0.47	CPU	MatMul_288_kernel_time
+1697	 0.34	CPU	Transpose_180_kernel_time
+1683	 0.34	CPU	Transpose_78_kernel_time
+1649	 0.33	CPU	Transpose_282_kernel_time
+1643	 0.33	CPU	Transpose_384_kernel_time
+1178	 0.24	PIM	Memcpy_token_23_kernel_time
+1177	 0.24	PIM	Memcpy_token_29_kernel_time
+1177	 0.24	PIM	Memcpy_token_35_kernel_time
+1172	 0.23	PIM	Memcpy_token_15_kernel_time
+1170	 0.23	PIM	Memcpy_token_28_kernel_time
+1169	 0.23	PIM	Memcpy_token_16_kernel_time
+1169	 0.23	PIM	Memcpy_token_27_kernel_time
+1166	 0.23	PIM	Memcpy_token_32_kernel_time
+1164	 0.23	PIM	Memcpy_token_36_kernel_time
+1162	 0.23	PIM	Memcpy_token_22_kernel_time
+1161	 0.23	PIM	Memcpy_token_26_kernel_time
+1159	 0.23	PIM	Memcpy_token_18_kernel_time
+1159	 0.23	PIM	Memcpy_token_33_kernel_time
+1158	 0.23	PIM	Memcpy_token_21_kernel_time
+1155	 0.23	PIM	Memcpy_token_30_kernel_time
+1154	 0.23	PIM	Memcpy_token_24_kernel_time
+1151	 0.23	PIM	Memcpy_token_34_kernel_time
+1148	 0.23	CPU	Gemm_444_kernel_time
+1137	 0.23	PIM	Memcpy_token_17_kernel_time
+1126	 0.23	PIM	Memcpy_token_38_kernel_time
+1116	 0.22	PIM	Memcpy_token_20_kernel_time
+1108	 0.22	CPU	Softmax_389_kernel_time
+1079	 0.22	CPU	Softmax_287_kernel_time
+1078	 0.22	CPU	Softmax_83_kernel_time
+1078	 0.22	CPU	Softmax_185_kernel_time
+734	 0.15	CPU	Mul_425_kernel_time
+733	 0.15	CPU	Mul_119_kernel_time
+725	 0.15	CPU	Mul_221_kernel_time
+715	 0.14	CPU	Mul_323_kernel_time
+639	 0.13	PIM	Memcpy_token_12_kernel_time
+638	 0.13	PIM	Memcpy_token_8_kernel_time
+635	 0.13	PIM	Memcpy_token_4_kernel_time
+632	 0.13	PIM	Memcpy_kernel_time
+629	 0.13	PIM	Memcpy_token_0_kernel_time
+626	 0.13	PIM	Memcpy_token_3_kernel_time
+622	 0.12	PIM	Memcpy_token_9_kernel_time
+621	 0.12	PIM	Memcpy_token_1_kernel_time
+618	 0.12	PIM	Memcpy_token_7_kernel_time
+617	 0.12	PIM	Memcpy_token_11_kernel_time
+616	 0.12	PIM	Memcpy_token_5_kernel_time
+614	 0.12	PIM	Memcpy_token_13_kernel_time
+549	 0.11	CPU	Div_115_kernel_time
+546	 0.11	CPU	Div_217_kernel_time
+545	 0.11	CPU	Div_319_kernel_time
+544	 0.11	CPU	Div_421_kernel_time
+510	 0.10	CPU	Div_415_kernel_time
+500	 0.10	CPU	Div_337_kernel_time
+497	 0.10	CPU	Div_133_kernel_time
+496	 0.10	CPU	Div_439_kernel_time
+495	 0.10	CPU	Div_235_kernel_time
+493	 0.10	CPU	Div_31_kernel_time
+490	 0.10	CPU	Div_313_kernel_time
+488	 0.10	CPU	Div_109_kernel_time
+487	 0.10	CPU	Div_211_kernel_time
+473	 0.09	CPU	ReduceMean_333_kernel_time
+472	 0.09	CPU	ReduceMean_207_kernel_time
+472	 0.09	CPU	ReduceMean_411_kernel_time
+468	 0.09	CPU	ReduceMean_309_kernel_time
+465	 0.09	CPU	Add_22_kernel_time
+465	 0.09	PIM	Add_317_kernel_time
+463	 0.09	PIM	Add_419_kernel_time
+459	 0.09	PIM	Add_215_kernel_time
+447	 0.09	CPU	ReduceMean_101_kernel_time
+447	 0.09	CPU	ReduceMean_125_kernel_time
+447	 0.09	CPU	ReduceMean_329_kernel_time
+447	 0.09	CPU	ReduceMean_431_kernel_time
+446	 0.09	CPU	ReduceMean_203_kernel_time
+446	 0.09	CPU	ReduceMean_227_kernel_time
+446	 0.09	CPU	ReduceMean_305_kernel_time
+446	 0.09	CPU	ReduceMean_407_kernel_time
+444	 0.09	CPU	ReduceMean_23_kernel_time
+440	 0.09	PIM	Add_113_kernel_time
+440	 0.09	CPU	Add_322_kernel_time
+439	 0.09	CPU	ReduceMean_105_kernel_time
+438	 0.09	CPU	ReduceMean_435_kernel_time
+437	 0.09	CPU	ReduceMean_129_kernel_time
+437	 0.09	CPU	ReduceMean_231_kernel_time
+432	 0.09	CPU	Add_220_kernel_time
+430	 0.09	CPU	ReduceMean_27_kernel_time
+424	 0.08	CPU	Add_20_kernel_time
+422	 0.08	CPU	Add_424_kernel_time
+418	 0.08	CPU	Add_118_kernel_time
+408	 0.08	CPU	Mul_427_kernel_time
+405	 0.08	CPU	Mul_325_kernel_time
+396	 0.08	CPU	Mul_223_kernel_time
+393	 0.08	CPU	Mul_121_kernel_time
+367	 0.07	CPU	Add_441_kernel_time
+360	 0.07	CPU	Mul_440_kernel_time
+331	 0.07	CPU	Sub_228_kernel_time
+323	 0.06	CPU	Transpose_166_kernel_time
+321	 0.06	CPU	Transpose_370_kernel_time
+320	 0.06	CPU	Transpose_268_kernel_time
+319	 0.06	CPU	Transpose_64_kernel_time
+315	 0.06	CPU	Add_184_kernel_time
+314	 0.06	CPU	Transpose_179_kernel_time
+312	 0.06	CPU	Transpose_281_kernel_time
+309	 0.06	CPU	Add_82_kernel_time
+309	 0.06	CPU	Add_286_kernel_time
+309	 0.06	CPU	Add_388_kernel_time
+308	 0.06	CPU	Transpose_383_kernel_time
+307	 0.06	CPU	Transpose_77_kernel_time
+298	 0.06	CPU	Sub_126_kernel_time
+297	 0.06	CPU	Sub_432_kernel_time
+295	 0.06	CPU	Sub_330_kernel_time
+286	 0.06	CPU	Sub_204_kernel_time
+284	 0.06	CPU	Sub_102_kernel_time
+283	 0.06	CPU	Sub_306_kernel_time
+279	 0.06	CPU	Sub_408_kernel_time
+276	 0.06	CPU	Div_81_kernel_time
+273	 0.05	CPU	Div_387_kernel_time
+272	 0.05	CPU	Sub_24_kernel_time
+272	 0.05	CPU	Div_285_kernel_time
+270	 0.05	CPU	Div_183_kernel_time
+263	 0.05	CPU	Pow_128_kernel_time
+263	 0.05	CPU	Pow_434_kernel_time
+261	 0.05	CPU	Pow_230_kernel_time
+261	 0.05	CPU	Pow_332_kernel_time
+258	 0.05	CPU	Pow_206_kernel_time
+257	 0.05	CPU	Pow_308_kernel_time
+257	 0.05	CPU	Pow_410_kernel_time
+256	 0.05	CPU	Pow_26_kernel_time
+256	 0.05	CPU	Pow_104_kernel_time
+208	 0.04	CPU	Transpose_85_kernel_time
+194	 0.04	CPU	Transpose_187_kernel_time
+192	 0.04	PIM	Add_226_kernel_time
+192	 0.04	PIM	Add_406_kernel_time
+191	 0.04	PIM	Add_202_kernel_time
+191	 0.04	PIM	Add_304_kernel_time
+191	 0.04	PIM	Add_430_kernel_time
+190	 0.04	PIM	Add_328_kernel_time
+186	 0.04	CPU	Transpose_391_kernel_time
+183	 0.04	CPU	Transpose_289_kernel_time
+181	 0.04	PIM	Add_100_kernel_time
+181	 0.04	PIM	Add_124_kernel_time
+177	 0.04	PIM	Add_237_kernel_time
+177	 0.04	PIM	Add_339_kernel_time
+172	 0.03	CPU	Gather_19_kernel_time
+150	 0.03	PIM	Mul_212_kernel_time
+146	 0.03	PIM	Add_135_kernel_time
+139	 0.03	PIM	Mul_32_kernel_time
+139	 0.03	PIM	Mul_416_kernel_time
+138	 0.03	PIM	Mul_236_kernel_time
+138	 0.03	PIM	Mul_314_kernel_time
+138	 0.03	PIM	Mul_338_kernel_time
+136	 0.03	PIM	Add_303_kernel_time
+136	 0.03	PIM	Add_417_kernel_time
+135	 0.03	PIM	Add_137_kernel_time
+135	 0.03	PIM	Add_213_kernel_time
+135	 0.03	PIM	Add_225_kernel_time
+135	 0.03	PIM	Add_315_kernel_time
+134	 0.03	PIM	Add_153_kernel_time
+134	 0.03	PIM	Add_255_kernel_time
+134	 0.03	PIM	Add_327_kernel_time
+134	 0.03	PIM	Add_357_kernel_time
+133	 0.03	PIM	Add_201_kernel_time
+133	 0.03	PIM	Add_341_kernel_time
+133	 0.03	PIM	Add_405_kernel_time
+133	 0.03	PIM	Add_429_kernel_time
+132	 0.03	PIM	Add_33_kernel_time
+132	 0.03	PIM	Add_241_kernel_time
+132	 0.03	PIM	Add_239_kernel_time
+132	 0.03	PIM	Add_343_kernel_time
+129	 0.03	PIM	Mul_134_kernel_time
+128	 0.03	PIM	Mul_110_kernel_time
+127	 0.03	PIM	Add_111_kernel_time
+127	 0.03	PIM	Add_123_kernel_time
+126	 0.03	PIM	Add_51_kernel_time
+125	 0.03	PIM	Add_37_kernel_time
+125	 0.03	PIM	Add_35_kernel_time
+125	 0.03	PIM	Add_99_kernel_time
+121	 0.02	PIM	Add_139_kernel_time
+88	 0.02	CPU	Gather_18_kernel_time
+64	 0.01	CPU	Add_311_kernel_time
+63	 0.01	CPU	Add_131_kernel_time
+61	 0.01	CPU	Add_29_kernel_time
+61	 0.01	CPU	Add_209_kernel_time
+60	 0.01	CPU	Add_107_kernel_time
+59	 0.01	CPU	Add_335_kernel_time
+59	 0.01	CPU	Add_413_kernel_time
+59	 0.01	CPU	Add_437_kernel_time
+58	 0.01	CPU	Add_233_kernel_time
+55	 0.01	CPU	Gemm_446_kernel_time
+54	 0.01	CPU	Tanh_445_kernel_time
+43	 0.01	CPU	Reshape_382_kernel_time
+37	 0.01	CPU	Gather_443_kernel_time
+32	 0.01	CPU	Unsqueeze_1_kernel_time
+31	 0.01	CPU	Reshape_151_kernel_time
+29	 0.01	CPU	Cast_4_kernel_time
+29	 0.01	CPU	Reshape_63_kernel_time
+28	 0.01	CPU	Reshape_49_kernel_time
+28	 0.01	CPU	Sub_6_kernel_time
+28	 0.01	CPU	Reshape_178_kernel_time
+27	 0.01	CPU	Reshape_76_kernel_time
+27	 0.01	CPU	Reshape_253_kernel_time
+27	 0.01	CPU	Reshape_267_kernel_time
+27	 0.01	CPU	Reshape_355_kernel_time
+27	 0.01	CPU	Reshape_369_kernel_time
+27	 0.01	CPU	Reshape_403_kernel_time
+26	 0.01	CPU	Mul_8_kernel_time
+26	 0.01	CPU	Reshape_165_kernel_time
+26	 0.01	CPU	Reshape_199_kernel_time
+25	 0.01	CPU	Reshape_97_kernel_time
+25	 0.01	CPU	Reshape_280_kernel_time
+25	 0.01	CPU	Sqrt_312_kernel_time
+24	 0.00	CPU	Sqrt_30_kernel_time
+24	 0.00	CPU	Unsqueeze_3_kernel_time
+24	 0.00	CPU	Sqrt_108_kernel_time
+24	 0.00	CPU	Sqrt_210_kernel_time
+24	 0.00	CPU	Sqrt_234_kernel_time
+24	 0.00	CPU	Reshape_301_kernel_time
+23	 0.00	CPU	Sqrt_132_kernel_time
+23	 0.00	CPU	Sqrt_336_kernel_time
+23	 0.00	CPU	Sqrt_414_kernel_time
+23	 0.00	CPU	Sqrt_438_kernel_time
+----------------------------------------------------------------
+Duration	Percentage	Calls	Cpu_Duration	Cpu_Calls	Name
+295638	59.25	32	19589	8	MatMul
+89523	17.94	4	89523	4	Erf
+41339	 8.28	24	0	0	MemcpyToHost
+17214	 3.45	16	0	0	MemcpyFromHost
+11874	 2.38	60	4754	20	Add
+9967	 2.00	16	9967	16	Transpose
+8082	 1.62	18	8082	18	ReduceMean
+7731	 1.55	17	7731	17	Div
+5994	 1.20	18	4895	10	Mul
+4343	 0.87	4	4343	4	Softmax
+2653	 0.53	10	2653	10	Sub
+2332	 0.47	9	2332	9	Pow
+1203	 0.24	2	1203	2	Gemm
+447	 0.09	16	447	16	Reshape
+297	 0.06	3	297	3	Gather
+213	 0.04	9	213	9	Sqrt
+56	 0.01	2	56	2	Unsqueeze
+54	 0.01	1	54	1	Tanh
+29	 0.01	1	29	1	Cast

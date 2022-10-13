@@ -7,6 +7,7 @@ Result of the research project supported by SK Hynix Inc and the Institute for I
 Any helpful feedback would be great! Contact the following people if you have any questions regarding the above.
 
 Seok Young Kim: tjrdud5136@korea.ac.kr
+
 Jaewook Lee: jake8542@korea.ac.kr
 
 
